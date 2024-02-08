@@ -98,7 +98,7 @@ const config = {
             items: [
               {
                 label: 'Terms of Service',
-                goto: '/docs/category/adventure-backpacks/',
+                to: '/src/pages/markdown-page',
               }
             ],
           },
