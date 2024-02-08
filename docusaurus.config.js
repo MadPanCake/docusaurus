@@ -93,6 +93,15 @@ const config = {
               }
             ],
           },
+          {
+            title: 'Terms',
+            items: [
+              {
+                label: 'Terms of Service',
+                goto: '/docs/category/adventure-backpacks/',
+              }
+            ],
+          },
         ],
         copyright: `Made for Ender Nerds. Not affiliated with Mojang Studios.`,
       },
