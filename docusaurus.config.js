@@ -78,12 +78,7 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {href: 'https://github.com/facebook/docusaurus', label: 'Products', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {href: 'https://builtbybit.com/creators/madpancake.171954/', label: 'Products', position: 'left'}
         ],
       },
       footer: {
