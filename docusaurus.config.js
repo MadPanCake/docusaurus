@@ -78,6 +78,11 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
+          {
+            position: 'left',
+            label: 'Discord',
+            href: 'https://discord.gg/wdBFC7Hc6X'
+          },
           {href: 'https://builtbybit.com/creators/madpancake.171954/', label: 'Products', position: 'left'}
         ],
       },
@@ -90,6 +95,15 @@ const config = {
               {
                 label: 'Discord',
                 href: 'https://discord.gg/wdBFC7Hc6X',
+              }
+            ],
+          },
+          {
+            title: 'Terms',
+            items: [
+              {
+                label: 'Terms of Service',
+                to: 'terms-of-service/',
               }
             ],
           },
