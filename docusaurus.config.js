@@ -93,15 +93,6 @@ const config = {
               }
             ],
           },
-          {
-            title: 'Terms',
-            items: [
-              {
-                label: 'Terms of Service',
-                to: '/src/pages/markdown-page',
-              }
-            ],
-          },
         ],
         copyright: `Made for Ender Nerds. Not affiliated with Mojang Studios.`,
       },
