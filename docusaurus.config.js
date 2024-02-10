@@ -104,6 +104,10 @@ const config = {
               {
                 label: 'Terms of Service',
                 to: 'terms-of-service/',
+              },
+              {
+                label: 'Money Back Guarantee',
+                to: 'money-back-guarantee/',
               }
             ],
           },

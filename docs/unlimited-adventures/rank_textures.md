@@ -23,8 +23,8 @@ This guide will explain Rank Textures.
 > Replace '' with your own text.\
 > So, in my case that will be: 'prefix.0.&fPlayer'
 
-<img src={img2} alt="Image Description" width="459" height="215"/>
-<img src={img3} alt="Image Description" width="459" height="215"/>
+<img src={img2} alt="Image Description" width="331" height="140"/>
+<img src={img3} alt="Image Description" width="346" height="133"/>
 
 #### How to edit the rank texture?
 

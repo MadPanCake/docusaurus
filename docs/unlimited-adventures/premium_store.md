@@ -26,7 +26,7 @@ The only thing you have to do is to add the premium currency to your server's we
 
 3. Insert the command: `/premiumcurrency {username} add 1000`
 
-<img src={tebex2} alt="Image Description" width="1407" height="203"/>
+<img src={tebex2} alt="Image Description" width="984" height="191"/>
 
 4. Click 'Create' and voila. It's done!
 
