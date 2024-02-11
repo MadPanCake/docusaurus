@@ -89,28 +89,9 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/wdBFC7Hc6X',
-              }
-            ],
-          },
-          {
-            title: 'Terms',
-            items: [
-              {
-                label: 'Terms of Service',
-                to: 'terms-of-service/',
-              },
-              {
-                label: 'Money Back Guarantee',
-                to: 'money-back-guarantee/',
-              }
-            ],
-          },
+          { label: 'Discord', to: 'https://discord.gg/wdBFC7Hc6X' },
+          { label: 'Terms of Service', to: 'terms-of-service/' },
+          { label: 'Money Back Guarantee', to: 'money-back-guarantee/' }
         ],
         copyright: `Made for Ender Nerds. Not affiliated with Mojang Studios.`,
       },
