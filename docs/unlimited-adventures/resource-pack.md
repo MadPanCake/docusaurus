@@ -7,7 +7,7 @@ import resource_pack_zip from './assets/resource-pack-zip.jpg';
 
 
 
-# :frame_photo:  How to access the resource pack?
+# :file_folder:  How to access the resource pack?
 
 This guide will explain how to download the Unlimited Adventures resource pack.
 
