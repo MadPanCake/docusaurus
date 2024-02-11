@@ -28,3 +28,46 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+
+
+
+
+
+
+
+/*
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.main-wrapper {
+  margin-left: 260px;
+}
+
+*/
+
+
+
+
+
+
+
+.footer {
+  text-align: center;
+}
+
+/* Optional: Center the individual items in the footer, if needed */
+.footer__links {
+  display: flex;
+  justify-content: center;
+}

@@ -28,9 +28,9 @@ In there, you can modify the rewards for different badge categories and tiers.
 
 
 
-#### :four: Types of rewards available:
+### 4 Types of rewards available:
 
-#### :coin: Gold Rewards:
+#### :moneybag: Gold Rewards:
 In order to add a gold reward, you have to type in:
 `gold [amount]`, for example: `gold 500`
 
@@ -39,7 +39,7 @@ In order to add a gems reward, you have to type in:
 `gems [amount]`, for example: `gems 500`
 
 
-#### :axe: Item Rewards: In order to add a gold reward, you have to type in:
+#### :hammer: Item Rewards: In order to add a gold reward, you have to type in:
 `[amount] of [item]`, for example: `5 of iron sword`.
 
 :::tip
@@ -53,6 +53,6 @@ You can make the item unbreakable:\
 `unbreakable iron sword named "&6&lPowerful Sword" of sharpness 5 and fire aspect 2 and unbreaking 3`
 :::
 
-#### :desktop: Command Rewards:
+#### :computer: Command Rewards:
 You can use commands as rewards, by doing as following:\
 `command premiumcurrency PLAYER_NAME add 100`

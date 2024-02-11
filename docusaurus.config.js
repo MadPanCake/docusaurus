@@ -63,6 +63,7 @@ const config = {
         defaultMode: 'dark',
         respectPrefersColorScheme: false
       },
+      name: 'description', content: 'Official Ender Nerds Documentation',
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -99,9 +100,6 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-
-      
-
     }),
 };
 

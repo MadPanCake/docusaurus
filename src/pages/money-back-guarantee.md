@@ -1,17 +1,12 @@
 ---
-title: Terms of Service
+title: Money Back Guarantee
 ---
 
-# Ender Nerds's Terms of Service
-Treat everyone else as you would like to be treated and it's going to be alright! :heart:
+# 100% Money Back Guarantee
 
-## :bell: Please be civil and professional
-- NSFW content is not allowed.
-- Spamming, bad language or insulting other users is not allowed.
-- Advertising of your own content is not allowed.
+We are the only studio that's so confident with it's products that we offer a **100% Money Back Guarantee!**\
+If you purchase a qualified product and after testing it, you decide that it's not satisfying, you can [ask for a refund](https://discord.gg/wdBFC7Hc6X).
 
-## :no_entry: DO NOT SHARE OUR PRODUCT FILES
-- Sharing our licensed software is illegal and will be punished. It is your responsibility to make sure files you have downloaded don't get leaked.
 
 ## :moneybag: Refunds
 - Our software can be refunded for up to 30 days after purchase. Qualified products are: Unlimited Adventures & Adventure Backpacks

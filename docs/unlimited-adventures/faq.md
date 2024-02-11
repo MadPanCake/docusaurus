@@ -10,9 +10,9 @@ Hello! Thank you for taking interest in Unlimited Adventures! In this section I 
 If you prefer to **talk to me directly**, then join our [Discord](https://discord.gg/wdBFC7Hc6X) and I'll gladly answer all of your questions!
 
 ### No bullshit now, why should I purchase Unlimited Adventures?
-Unlimited Adventures is a state-of-the-art, adventure-driven experience that was designed to unlock the full potential of survival multiplayer.\
-I've spent hundreds of hours to polish every aspect of this product to ensure the highest possible quality!\
-I'm fully confident that Unlimited Adventures is a setup with the most potential on BuiltByBit.\
+Unlimited Adventures is a state-of-the-art, adventure-driven experience.\
+I've designed it to enhance vanilla survival gameplay by adding new content, exploration and progression opportunities.\
+With hundreds of hours designing and developing the setup, every feature is extremely polished.
 
 #### In short:
 - An adventure-focused experience with plenty of new challenges and progression opportunities.
@@ -40,24 +40,24 @@ I'm fully confident that Unlimited Adventures is a setup with the most potential
 > Just start the server and it's ready for the play!
 
 #### Are there any premium dependencies required?
-> Not at all! You don't have to purchase any plugin. Unlimited Adventures works out of the box, with no premium dependencies.
+> Not at all! You don't have to purchase any plugin. Unlimited Adventures works out of the box, with **no premium dependencies**.
 
 #### Does Unlimited Adventures work with Oraxen or Items Adder?
 > Oraxen and Items Adder are **not required** for the setup to work.\
-> If you want, you can easily [merge our resource pack](/docs/unlimited-adventures/oraxen) with Oraxen or Items Adder.
+> However, if you want, you can still easily [merge our resource pack](/docs/unlimited-adventures/oraxen) with Oraxen or Items Adder.
 
 ## :wrench: Technical
 
 #### Can I configure / translate the setup?
-> Unlimited Adventures is designed in a way that allows almost every feature to be configured!\
-> Setup and it's custom features can be translated to your own language.
+> I've put in a special care to make sure all features can be as configurable as possible!\
+> Additionally, the setup and it's custom features can be translated to your own language.
 
 #### What are the server requirements?
-> I have put extra effort to optimize the setup well.\
-> Thanks to this, the server will run with just 6 GB of RAM allocated.
+> I'm taking the concern of performance seriously and I closely monitor it.\
+> At the moment, the setup will run with just 6 GB of RAM allocated.
 
 #### What if I don't like the setup?
-> We'll refund you. Yeah, seriously! We are 100% confident with the quality of Unlimited Adventures!\
+> We will refund you. Yeah, seriously! We are 100% confident with the quality of Unlimited Adventures!\
 > So if you don't like the setup, just message us and you'll get your money back!\
 > Read more about our [unique refund policy](/money-back-guarantee)!
 

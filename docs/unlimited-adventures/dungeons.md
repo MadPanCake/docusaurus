@@ -11,14 +11,14 @@ Our very own, custom-developed Dungeons system. It features 10 unique floors and
 Dungeons are filled with monsters, ores and chests to loot. In order to progress to another floor, you have to find a Dungeon Key.
 
 
-#### :desktop:  Help Command
+#### :computer:  Help Command
 
 To get all the Dungeons commands, please execute: `/dungeons help`
 
-#### :book: Dungeons Menu
+#### :closed_book: Dungeons Menu
 
 Configure Dungeons menu in:\
-```plugins/CommandPanels/dungeons_menu```
+```plugins/CommandPanels/dungeons```
 
 
 #### :gear: How to configure Dungeons?
