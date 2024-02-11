@@ -7,7 +7,7 @@ import tebex1 from './assets/tebex_premium_currency_1.png';
 import tebex2 from './assets/tebex_premium_currency_2.png';
 
 
-# :coin: Premium Store Setup
+# :moneybag: Premium Store Setup
 
 Premium Store is one of our flagship features, and certainly one of the most original ones. That's why you might not be very familiar with how to use it.
 Don't worry though, it's actually super simple!
