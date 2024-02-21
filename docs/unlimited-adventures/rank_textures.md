@@ -6,6 +6,7 @@ title: 'Rank Textures'
 import img1 from './assets/rank_textures_1.png';
 import img2 from './assets/rank_textures_2.png';
 import img3 from './assets/rank_textures_3.png';
+import img4 from './assets/rank_textures_4.png';
 
 
 # Rank Textures (prefixes)
@@ -14,7 +15,7 @@ This guide will explain Rank Textures.
 
 <img src={img1} alt="Image Description" width="459" height="215"/>
 
-#### How to change the textures back to text? (prefix)
+### How to change the textures back to text? (prefix)
 
 > To remove the rank texture, you need to execute:\
 `/lp editor`\
@@ -26,7 +27,7 @@ This guide will explain Rank Textures.
 <img src={img2} alt="Image Description" width="331" height="140"/>
 <img src={img3} alt="Image Description" width="346" height="133"/>
 
-#### How to edit the rank texture?
+### How to edit the rank texture?
 
 In order to edit the rank texture, you need to go into the server's resource pack.\
 ```assets/minecraft/textures/custom/icons```\
@@ -38,3 +39,7 @@ If you have edited the file, just save it and it should be working.
 If you don't want to or don't know how to edit the rank textures, you can order the Rank Textures Package.\
 It's 5x new rank prefixes for $8.90. Contact me on [Discord](https://discord.gg/wdBFC7Hc6X) to order it.
 :::
+
+
+### How to make Player rank prefix visible on TAB?
+

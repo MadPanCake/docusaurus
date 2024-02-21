@@ -18,7 +18,18 @@ This guide will explain how to download the Unlimited Adventures resource pack.
 > Open the file and look for `resource-pack=`
 
 **Step 3**
-> Copy the link and paste it in your browser. Done!
+> Copy the link and paste it in your browser. 
+Notice that there is a backwards slash added in the beginning:\
+> `https\://download.mc-packs.net/pack/afdbe0108c6d2126eddb96c57013829bd00e4300.zip`\
+> You have to remove it:\
+> `https://download.mc-packs.net/pack/afdbe0108c6d6126eddb96d57013839bd00e4300.zip`
+
+:::note
+This above link is just an example, download the resource pack using a link from your `server.properties` file!
+:::
+
+
+
 
 <br></br>
 <br></br>

@@ -3,6 +3,8 @@ sidebar_position: 1
 title: 'Setup Installation'
 ---
 
+import ReactPlayer from 'react-player'
+import video from './assets/setup_installation.mov';
 
 # :hatching_chick: Setup Installation
 
@@ -23,5 +25,9 @@ Warning: If you're already using the setup, you want to use [Updating](updating)
 > Download ['Citizens'](https://ci.citizensnpcs.co/job/Citizens2/3277/artifact/dist/target/Citizens-2.0.33-b3277.jar)\
 > Put the `Citizens.jar` plugin into the `plugins` folder.
 
-
 Easy, right? Enjoy your server!
+
+## Video Tutorial
+<ReactPlayer playing controls url={video} />
+
+

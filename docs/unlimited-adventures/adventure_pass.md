@@ -9,7 +9,7 @@ title: 'Adventure Pass'
 
 # :dart: **Adventure Pass**
 
-We take proud in having the best Battle Pass implementation out there.
+We take pride in having the best Battle Pass implementation out there.
 This guide aims to make the usage of this solution as easy as possible.
 
 

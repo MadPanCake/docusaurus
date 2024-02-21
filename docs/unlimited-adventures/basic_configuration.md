@@ -9,23 +9,25 @@ title: 'Basic Configuration'
 
 We have put in a big effort in order to make our setup as easy to configure as possible. Here are a few example features that you can configure:
 
-### :cloud: Rules, Welcome Message, Chat Prefixes & Colors
+### :cloud: Rules, Welcome Message, Tips, Chat Prefixes & Colors
 Features related to chat are controlled by ChatManager plugin. In order to configure them to your own liking, you should head to:
-```plugins/ChatManager/config.yml```
+```plugins/ChatManager/``` folder.
+- `AutoBroadcast.yml` - the tips that are sent on chat every 2 minutes.
+- `config.yml` - rules, chat prefixes, colors.
 
 ### :bookmark_tabs: Scoreboard, Tablist
 Scoreboard & Tablist are managed by the TAB plugin. In order to configure these features, you should head to:
 ```plugins/TAB/config.yml```
 
-:pencil: **GUI Menus**\
-You can edit all menus in `plugins/CommandPanels/panels.yml`.
+### :pen: GUI Menus
+You can edit all menus in `plugins/CommandPanels/panels/` folder.
 
 
 ### :earth_americas: Random TP Portal
 
 How to move the portal?
 - If you'd like to move the Random TP portal, you need to define a region called: `random_tp`
-- Once that region is defined, whoever enters it will be random teleported!
+- Once that region is defined, whoever enters it will be teleported!
 
 
 ### :earth_americas:  Pre-Generating the World

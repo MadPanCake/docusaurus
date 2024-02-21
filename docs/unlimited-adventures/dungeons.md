@@ -11,9 +11,12 @@ Our very own, custom-developed Dungeons system. It features 10 unique floors and
 Dungeons are filled with monsters, ores and chests to loot. In order to progress to another floor, you have to find a Dungeon Key.
 
 
-#### :computer:  Help Command
+#### :computer: Commands
 
 To get all the Dungeons commands, please execute: `/dungeons help`
+
+- `/dungeons unlock [player] [floor number]` - unlocks a floor for the player
+- `/dungeons resetkey` - resets your unlocked floors
 
 #### :closed_book: Dungeons Menu
 
