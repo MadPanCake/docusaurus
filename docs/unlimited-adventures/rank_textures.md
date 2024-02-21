@@ -43,3 +43,11 @@ It's 5x new rank prefixes for $8.90. Contact me on [Discord](https://discord.gg/
 
 ### How to make Player rank prefix visible on TAB?
 
+<img src={img4} alt="Image Description" width="270" height="36"/>
+
+Go to `plugins/TAB/groups.yml` and change this:
+
+Default:\
+    tabprefix: "&f "\
+    tagprefix: "&f "
+
