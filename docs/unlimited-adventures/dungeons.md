@@ -7,8 +7,10 @@ title: 'Dungeons'
 
 # :skull: **Dungeons**
 
-Our very own, custom-developed Dungeons system. It features 10 unique floors and 2 boss arenas.\
-Dungeons are filled with monsters, ores and chests to loot. In order to progress to another floor, you have to find a Dungeon Key.
+Our very own, custom-developed Dungeons system. It features 3 themed dungeons with 3 floors each.\
+Dungeons are filled with monsters, ores and chests to loot. In order to progress to another floor, you have to find a Dungeon Key.\
+At the end of every dungeon there is a powerful boss that drops unique items.\
+Dungeon Key can be dropped from the Mini-Bosses found in the wilderness.
 
 
 #### :computer: Commands
@@ -26,8 +28,8 @@ Configure Dungeons menu in:\
 
 #### :gear: How to configure Dungeons?
 
-You can find Valiant Dungeon's configuration file at:
-```plugins/Dungeons/config.yml```
+You can find Dungeon's configuration files in:
+```plugins/Dungeons/```
 
 
 
@@ -52,22 +54,22 @@ Example:
 
 #### :boar: How to create a monster spawn in my Dungeon?
 
-In order to create a new monster spawn, you need to insert this command:
-```/dungeons setmonsterspawn [monster type] [floor number] [spawn number]```
-For example:
-```/dungeons setmonsterspawn zombie 11 1```
-> Available monster types are: `zombie`, `skeleton` & `spider`
+In order to create a new monster spawn, you need to insert this command:\
+```/dungeons setmonsterspawn [monster type]```\
+For example:\
+```/dungeons setmonsterspawn zombie```
+> Available monster types are: `zombie`, `skeleton`, `spider`, `husk` & `ghost`.
 
 
 
 #### :dragon: How to create a BOSS spawn in my Dungeon?
 
 In order to create a new BOSS spawn, you need to insert this command:\
-```/dungeons setbossspawn [bosstype] [floor number]```\
+```/dungeons setbossspawn [bosstype] ```\
 For example:\
-```/dungeons setbossspawn zombie_brute  5```
+```/dungeons setbossspawn dracula```
 
-Available BOSS types are: `zombie_brute`, `skeleton_king`
+Available BOSS types are: `miner_wrath`, `dracula`, `pharaoh`.
 
 #### :package: How to create a respawnable chest?
 
@@ -77,29 +79,10 @@ In order to create a chest that will respawn, with random content, you need to:
 > 3. Insert the `/dungeons setchest` command.
 
 By default, the chest will respawn with 3 random items from it's initial inventory.
-You can easily change that in the Valiant Dungeon's config.
+You can easily change that in the Dungeon's config.
 
 
-#### :bricks: How to create a respawnable block?
+#### Respawnable ores in the dungeons
 
-In order to create a block that will respawn, you need to:
-> 1. Hold the block that you'd like to respawn.
-> 2. Insert the `/dungeons respawnableblock` command.
-> 3. Place the block wherever you'd like.
-> 4. You'll know that it's working if you see a message on chat `'[Dungeons] Block placed!'`
-
-:moneybag: **How to set Boss Loot?**
-
-In order to set the possible loot from a Boss, you need to:
-> 1. Place the chest
-> 2. Fill the chest with items
-> 3. Insert the `/dungeons setbossloot [bosstype]` command.
-Available BOSS types are: zombie_brute, skeleton_king
-
-### 3 Placeholders available
-
-`valiant_dungeon_unlocked_FLOORNUMBER` - returns `'true'`, if specified floor is unlocked, `'false'` if not.
-`valiant_zombie_brute_timeuntilrespawn` - returns the time until Zombie Brute BOSS respawns.
-`valiant_skeleton_king_timeuntilrespawn` - returns the time until Skeleton King BOSS respawns.
-
+All ores in dungeons will respawn after a while when being mined.
 

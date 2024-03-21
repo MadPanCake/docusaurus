@@ -13,17 +13,20 @@ So you've just purchased Unlimited Adventures? Yeehaw! I know that you can't wai
 Warning: If you're already using the setup, you want to use [Updating](updating)
 :::
 
-**Step 1**
+#### Step 1
 
 > Download [Paper 1.20.2](https://api.papermc.io/v2/projects/paper/versions/1.20.2/builds/318/downloads/paper-1.20.2-318.jar)
 
-**Step 2**
-> Download ['TAB' plugin](https://github.com/NEZNAMY/TAB/releases/download/4.0.9/TAB.v4.0.9.jar)\
-> Put the `TAB.jar` into the `plugins` folder.
+#### Step 2
+> Download & install plugins: 
+- [Citizens](https://ci.citizensnpcs.co/job/Citizens2/3277/artifact/dist/target/Citizens-2.0.33-b3277.jar)
+- [TAB](https://github.com/NEZNAMY/TAB/releases/download/4.0.9/TAB.v4.0.9.jar)
+- [Model Engine](https://mythiccraft.io/index.php?pages/official-modelengine4-download/&download=free&f=4.0.5)
+- [Mythic Mobs](https://www.mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.6.1.jar)
 
-**Step 3**
-> Download ['Citizens'](https://ci.citizensnpcs.co/job/Citizens2/3277/artifact/dist/target/Citizens-2.0.33-b3277.jar)\
-> Put the `Citizens.jar` plugin into the `plugins` folder.
+#### Step 3
+Put the plugins into the `plugins` folder.
+
 
 Easy, right? Enjoy your server!
 

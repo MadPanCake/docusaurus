@@ -10,7 +10,8 @@ title: 'Custom Items'
 The Forge is a very special feature that let's players craft new powerful items.
 
 :::tip
-You can get all custom items by executing `/getitems`
+You can get all custom items by executing: `/getitems`
+To get any item, execute: `/getcustomitem [item name] [player name]`
 :::
 
 #### How to edit items?
