@@ -15,11 +15,7 @@ This guide aims to make the usage of this solution as easy as possible.
 
 ### Where is the config?
 You can find the Adventure Pass config file in:
-`plugins/AdventurePass`
-
-### Adventure Pass Menu
-Adventure Pass menu can be configured in:\
-`plugins/CommandPanels/battlepass_menu`
+`unlimited_adventures/AdventurePass`
 
 ### How to start/reset the season?
 
@@ -37,7 +33,7 @@ You can easily add Adventure Pass Experience to a player by using the `/adventur
 ### :package: How to change Adventure Pass rewards?
 
 You can easily add, change or remove rewards from our Adventure Pass system.\
-In order to do so, you need to find the `plugins/AdventurePass/rewards.yml` config file.
+In order to do so, you need to find the `unlimited_adventures/AdventurePass/rewards.yml` config file.
 
 
 
@@ -72,20 +68,23 @@ You can use commands as rewards, by doing as following:\
 
 
 
-### 15 Placeholders available:
 
-- `%valiant_battlepass_rewardavailable%` - This placeholder returns "true", if the player has available, unclaimed rewards.
-- `%valiant_battlepass_premium%` - This placeholder returns "true", if the player has the Premium Pass.
-- `%valiant_battlepass_page%` - This placeholder returns the Adventure Pass Menu page that the player is on (the page that contains his current Adventure Pass level)
-- `%valiant_battlepass_rewardavailable_LEVEL%` - This placeholder returns "true", if player has an available, unclaimed reward for the specified Adventure Pass level.
-- `%valiant_battlepass_dq_timeuntilreset%` - This placeholder returns the time until the Daily Quest resets.
-- `%valiant_battlepass_wq_timeuntilreset%` - This placeholder returns the time until the Weekly Quest resets.
-- `%valiant_battlepass_dq_timeuntilexpiration%` - This placeholder returns the time until the Daily Quest expires.
-- `%valiant_battlepass_wq_timeuntilexpiration%` - This placeholder returns the time until the Weekly Quest expires.
-- `%valiant_battlepass_dq_number%` - This placeholder returns the Daily Quest ID number. (used for display purposes in the CP menu)
-- `%valiant_battlepass_wq_number%` - This placeholder returns the Weekly Quest ID number. (used for display purposes in the CP menu)
-- `%valiant_battlepass_level_progress_percent%` - This placeholder returns the progress towards the next Adventure Pass level in percentage.
-- `%valiant_battlepass_level_progress_graphic%` - This placeholder returns the progress towards the next Adventure Pass level in the form of a colored progress bar.
-- `%valiant_battlepass_level%` - This placeholder returns the player's Adventure Pass level.
-- `%valiant_battlepass_xp%` - This placeholder returns the player's Adventure Pass experience amount.
-- `%valiant_battlepass_xp_need%` - This placeholder returns the player's Adventure Pass experience amount needed to level up.
+## 15 Placeholders available:
+
+| Placeholder | Description |
+| - | - |
+| `%valiant_battlepass_rewardavailable%` | This placeholder returns "true", if the player has available, unclaimed rewards. |
+| `%valiant_battlepass_premium%` | This placeholder returns "true", if the player has the Premium Pass. |
+| `%valiant_battlepass_page%` | This placeholder returns the Adventure Pass Menu page that the player is on (the page that contains his current Adventure Pass level) |
+| `%valiant_battlepass_rewardavailable_LEVEL%` | This placeholder returns "true", if player has an available, unclaimed reward for the specified Adventure Pass level. |
+| `%valiant_battlepass_dq_timeuntilreset%` | This placeholder returns the time until the Daily Quest resets. |
+| `%valiant_battlepass_wq_timeuntilreset%` | This placeholder returns the time until the Weekly Quest resets. |
+| `%valiant_battlepass_dq_timeuntilexpiration%` | This placeholder returns the time until the Daily Quest expires. |
+| `%valiant_battlepass_wq_timeuntilexpiration%` | This placeholder returns the time until the Weekly Quest expires. |
+| `%valiant_battlepass_dq_number%` | This placeholder returns the Daily Quest ID number. (used for display purposes in the CP menu) |
+| `%valiant_battlepass_wq_number%` | This placeholder returns the Weekly Quest ID number. (used for display purposes in the CP menu) |
+| `%valiant_battlepass_level_progress_percent%` | This placeholder returns the progress towards the next Adventure Pass level in percentage. |
+| `%valiant_battlepass_level_progress_graphic%` | This placeholder returns the progress towards the next Adventure Pass level in the form of a colored progress bar. |
+| `%valiant_battlepass_level%` | This placeholder returns the player's Adventure Pass level. |
+| `%valiant_battlepass_xp%` |- This placeholder returns the player's Adventure Pass experience amount. |
+| `%valiant_battlepass_xp_need%` | This placeholder returns the player's Adventure Pass experience amount needed to level up. |

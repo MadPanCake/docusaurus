@@ -16,7 +16,7 @@ His items stock is unique, you cannot purchase them through the regular Buy Shop
 #### How to change Ancient Traveler's items?
 
 In order to change the Ancient Traveler's item stock, you need to go to:\
-`plugins/AncientTraveler/config.yml`\
+`unlimited_adventures/AncientTraveler/config.yml`\
 This file contains the item tags to the items configured in Command Panels' Ancient Traveler's menu.
 That list can be used to add, remove or rename tags.
 

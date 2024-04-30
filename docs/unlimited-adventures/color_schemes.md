@@ -12,10 +12,10 @@ Most of the colors visible through the Unlimited Adventures setup are tied up to
 By changing the values you change colors of everything at once, you no longer have to tediously go to each plugin file to change it.
 
 #### Step 1
-> Go to `plugins/ColorsConfig/config.yml`
+> Go to `unlimited_adventures/AdventureCore/colors_config.yml`
 
 #### Step 2
-> Find a color that interests you, for example: Ultra
+> Find a color that interests you.
 
 ##### Step 3
 > Edit the color by inputting your own code. Color codes and formatting are supported, so you can use HEX, bold, italic, etc.\

@@ -22,19 +22,17 @@ Scoreboard & Tablist are managed by the TAB plugin. In order to configure these 
 ### :pen: GUI Menus
 You can edit all menus in `plugins/CommandPanels/panels/` folder.
 
-
-### :earth_americas: Random TP Portal
-
-How to move the portal?
-- If you'd like to move the Random TP portal, you need to define a region called: `random_tp`
-- Once that region is defined, whoever enters it will be teleported!
-
-
 ### :earth_americas:  Pre-Generating the World
 
 We suggest you to pre-generate your server's world.
 In order to do that, you can use a plugin like [Chunky](https://dev.bukkit.org/projects/chunky-pregenerator/files)\
 Pre-generating your world can improve the performance of your server.\
 We recommend a world size of 5,000 x 5,000 or 10,000 x 10,000.
+
+### Homes
+
+`/sethome` and `/home` are disabled to increase immersion. Instead, players have to craft Home Teleportation Scrolls if they want to quickly get back to their bases.
+
+
 
 

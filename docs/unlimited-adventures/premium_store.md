@@ -12,7 +12,7 @@ import tebex2 from './assets/tebex_premium_currency_2.png';
 Premium Store is one of our flagship features, and certainly one of the most original ones. That's why you might not be very familiar with how to use it.
 Don't worry though, it's actually super simple!
 
-#### How to get started with Premium Store?
+### How to get started with Premium Store?
 
 Our Premium Store comes pre-configured, with items ready to sell.
 The only thing you have to do is to add the premium currency to your server's webstore.
@@ -33,12 +33,16 @@ The only thing you have to do is to add the premium currency to your server's we
 
 
 
-#### BONUS: Recommended Premium Currency packages
+### BONUS: Recommended Premium Currency packages
 
 We recommend you to use the following Premium Currency packages:
-- 1000 Gems - $9.99
-- 2500 Gems - $19.99
-- 6000 Gems - $44.99
+| Amount of gems | Price |
+| - | - |
+| 1000 Gems | $9.99 |
+| 2500 Gems | $19.99 |
+| 6000 Gems | $44.99 |
+
+You can adjust the prices to prices to your audience, but keep these same proportions to ensure high conversion rates.
 
 
 
@@ -48,3 +52,8 @@ It's super simple! You just have to type in this command:\
 ```/premiumcurrency [player] add [amount]```\
 or, you can also use a shorter form:\
 ```/gems [player] add [amount]```
+
+### :gem: Premium Currency Placeholder
+
+A placeholder for Gems is available: `%valiant_premium_currency%`\
+It returns the amount of gems a player has.

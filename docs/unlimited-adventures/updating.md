@@ -8,9 +8,13 @@ title: 'Updating'
 
 If you're already using the setup, but would like to install the update, you can easily do it!
 
-:::warning
+:::warning[Don't skip versions!]
 You can't skip setup versions! For example, you can't go from 2.0 to 2.4\
 If you are on 2.0, download 2.1, finish all the steps and only then update to 2.2, then 2.3 and so on, until you are on the latest version.
+:::
+
+:::warning[Backup first!]
+You should **always** backup your files first, before doing any changes or updates.
 :::
 
 **Step 1**

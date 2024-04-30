@@ -15,7 +15,7 @@ Thanks to this, you can use: up to 4 different reward types, 4 placeholders and 
 #### :package: How to change rewards?
 
 You can easily add, change or remove rewards from our Daily Rewards system.
-In order to do so, you need to find the `plugins/DailyRewards/rewards.yml` config file.
+In order to do so, you need to find the `unlimited_adventures/DailyRewards/rewards.yml` config file.
 
 
 
@@ -49,17 +49,16 @@ You can make the item unbreakable:\
 `command premiumcurrency PLAYER_NAME add 100`
 
 
-
-### 4 Placeholders available:
-
-`%valiant_dailyrewards_canclaim%` - This placeholder returns "true", when player has an unclaimed Daily Reward.
-`%valiant_dailyrewards_timeuntilclaim%` - This placeholder returns the time left until a player can claim his Daily Reward.
-`%valaint_dailyrewards_timeuntilexpiration%` - This placeholder returns the time left until the unclaimed Daily Reward expires and the strike resets.
-`%valiant_dailyrewards_daynumber%` - This placeholder returns the Daily Rewards day, the player is at.
-
-
-
 ### 2 Variables available:
 
 `PLAYER_NAME` - the player's nickname.\
 `DAY_NUMBER` - the player's daily reward number.
+
+## 4 Placeholders available:
+
+| Placeholder | Description |
+| - | - |
+| `%valiant_dailyrewards_canclaim%` | This placeholder returns "true", when player has an unclaimed Daily Reward. |
+| `%valiant_dailyrewards_timeuntilclaim%` | This placeholder returns the time left until a player can claim his Daily Reward. |
+| `%valaint_dailyrewards_timeuntilexpiration%` | This placeholder returns the time left until the unclaimed Daily Reward expires and the strike resets. |
+| `%valiant_dailyrewards_daynumber%` | This placeholder returns the Daily Rewards day, the player is at. |

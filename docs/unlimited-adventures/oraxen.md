@@ -15,8 +15,8 @@ This is actually a very simple process. You can follow the text guide, or watch 
 > Stop your server.
 
 **Step 2**
-> Copy contents of Unlimited Adventures' resource pack (everything in `Unlimited Adventures/assets/`, at the moment of writing, it's just the `minecraft` folder.)
-:::note
+> Copy contents of Unlimited Adventures' resource pack (everything in `Unlimited Adventures/assets/`)
+:::tip[Find your resource pack]
 Don't know how to find your resource pack? Refer to [Resource Pack](resource-pack)
 :::
 **Step 3**

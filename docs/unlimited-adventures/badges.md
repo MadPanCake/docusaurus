@@ -14,7 +14,7 @@ Badges is our entirely unique feature. Designed to reward the most ambitious pla
 #### How to change Badge requirements?
 
 To change the badge requirements, go to:
-```plugins/Badges/badges.yml```
+```unlimited_adventures/Badges/badges.yml```
 In there, you can modify various badge categories and their levels.
 Please notice that badges use placeholders to reliably track player's progress.
 
@@ -23,7 +23,7 @@ Please notice that badges use placeholders to reliably track player's progress.
 #### :package: How to change Badge rewards?
 
 You can easily change the badge rewards. To do it, head to:
-```plugins/Badges/rewards.yml```
+```unlimited_adventures/Badges/rewards.yml```
 In there, you can modify the rewards for different badge categories and tiers.
 
 

@@ -11,20 +11,24 @@ import resource_pack_zip from './assets/resource-pack-zip.jpg';
 
 This guide will explain how to download the Unlimited Adventures resource pack.
 
-**Step 1**
-> Find `server.properties` file in the main server folder.
+#### Step 1
+Find `server.properties` file in the main server folder.
 
-**Step 2**
-> Open the file and look for `resource-pack=`
+#### Step 2
+Open the file and look for `resource-pack=`
 
-**Step 3**
-> Copy the link and paste it in your browser. 
-Notice that there is a backwards slash added in the beginning:\
-> `https\://download.mc-packs.net/pack/afdbe0108c6d2126eddb96c57013829bd00e4300.zip`\
-> You have to remove it:\
-> `https://download.mc-packs.net/pack/afdbe0108c6d6126eddb96d57013839bd00e4300.zip`
+#### Step 3
+Notice that there is a backwards slash added in the beginning. **You have to remove it!**\
+`https\://download.mc-packs.net/pack/afdbe0108c6d2126eddb96c57013829bd00e4300.zip`
 
-:::note
+
+Your link should look like that:\
+`https://download.mc-packs.net/pack/afdbe0108c6d6126eddb96d57013839bd00e4300.zip`
+
+#### Step 4
+Copy the link and paste it in your browser.
+
+:::warning
 This above link is just an example, download the resource pack using a link from your `server.properties` file!
 :::
 

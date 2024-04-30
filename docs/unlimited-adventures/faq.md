@@ -27,8 +27,7 @@ With hundreds of hours designing and developing the setup, every feature is extr
 :::
 
 #### What Minecraft version is the setup using?
-> The setup is running natively on Paper 1.20.2\
-> You can join on 1.20.2 and 1.20.3
+> The setup is running natively on **Paper 1.20.4**
 
 #### Trees look weird!
 > Our tree leaves have a custom, bushy texture, that makes the foliage beautiful.\
@@ -54,7 +53,7 @@ With hundreds of hours designing and developing the setup, every feature is extr
 
 #### What are the server requirements?
 > I'm taking the concern of performance seriously and I closely monitor it.\
-> At the moment, the setup will run with just 6 GB of RAM allocated.
+> At the moment, the setup will run even with just 6 GB of RAM allocated.
 
 #### What if I don't like the setup?
 > We will refund you. Yeah, seriously! We are 100% confident with the quality of Unlimited Adventures!\
