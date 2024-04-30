@@ -4,6 +4,12 @@ title: 'Updating'
 ---
 
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+
+
 # :bulb: **How to update your server?**
 
 If you're already using the setup, but would like to install the update, you can easily do it!
@@ -17,18 +23,37 @@ If you are on 2.0, download 2.1, finish all the steps and only then update to 2.
 You should **always** backup your files first, before doing any changes or updates.
 :::
 
-**Step 1**
-> [Download](https://builtbybit.com/resources/unlimited-adventures.27917/) proper setup version.
 
-**Step 2**
-> Make a back up of your server files in another place, just to be safe.
+<Tabs>
+  <TabItem value="2.6.1" label="Update 2.6.1">
 
-**Step 3**
-> Find the `Update Files` folder.\
-> Copy and paste the update files into your current server folder.
+#### Step 1
+Stop your server.
 
-**Step 4**
-> Select 'Replace the file' and voila!
-> New, updated files, should now replace the old files automatically.
+#### Step 2
+Remove folders:
+- `spawn`
+- `plugins/CommandPanels/panels`
 
-:white_check_mark: You can enjoy the latest version of Unlimited Adventures!
+#### Step 3
+Remove files:
+- `plugins/worldedit.jar`
+- `plugins/AureliumSkills.jar` 
+- `plugins/Skript/scripts/rtp.sk`
+
+#### Step 4
+Download [Paper 1.20.4](https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/485/downloads/paper-1.20.4-485.jar)
+
+#### Step 5
+Update [Citizens](https://ci.citizensnpcs.co/job/citizens2/3373/artifact/dist/target/Citizens-2.0.33-b3373.jar).
+
+
+#### Step 6
+Copy all contents of `Update Files` to your main server folder.\
+(Click "Change files in the destination")
+
+  </TabItem>
+</Tabs>
+
+:white_check_mark: Done! You can enjoy the latest version of Unlimited Adventures!
+
