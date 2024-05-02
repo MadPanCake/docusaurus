@@ -112,7 +112,7 @@ const config = {
             label: 'Discord',
             href: 'https://discord.gg/wdBFC7Hc6X'
           },
-          {href: 'https://builtbybit.com/creators/madpancake.171954/', label: 'Products', position: 'left'}
+          {href: 'https://endernerdskr.netlify.app/docs/category/unlimited-adventures', label: 'Korean', position: 'right'}
         ],
       },
       footer: {

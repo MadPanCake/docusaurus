@@ -10,6 +10,31 @@ While you can keep using the default textures and logos, it's a good idea to mak
 This page will explain how to change the most important branding features of the setup.
 
 
+### 'ESC' menu logo
+
+#### Modify logo
+
+'ESC' menu logo can be modified using a resource pack.\
+You can find the texture of the logo in: `assets/minecraft/textures/custom/icons/title.png`\
+Edit this texture to change how the logo looks.
+
+:::tip[Logo Size]
+The logo can be max. 256x256px big. This is a Minecraft limitation.
+:::
+
+#### Delete logo
+
+If you for some reason want to delete the logo altogether, please go to: `assets/minecraft/lang/en_us.json` and edit the line to your own custom text, or delete the file altogether to revert default behaviour.
+
+### MOTD
+
+Server description is handled by our custom-made Adventure Core. It can be modified in the `unlimited_adventures/AdventureCore/motd` (**NOT** in the `plugins/` folder!)
+
+```
+motd_line:
+    '1': "            §x&6&d&d&4&4&4&lUNLIMITED ADVENTURES &f[§x&a&c&e&6&7&31.20.4&f]"
+    '2': "   §x&f&f&c&8&0&0⭐ Ambient Sounds §x&9&0&e&3&4&e🪣 3D Backpacks §x&f&7&4&1&5&4☠ §x&f&7&4&1&5&4Dungeons"
+```
 
 ### Tablist
 
@@ -55,26 +80,5 @@ scoreboard:
       - '  {%color_server_name_accent%}play.unlimitedadventures.com'
 ```
 
-### MOTD
-
-Server description is handled by our custom-made Adventure Core. It can be modified in the `unlimited_adventures/AdventureCore/motd` (**NOT** in the `plugins/` folder!)
-
-```
-motd_line:
-    '1': "            §x&6&d&d&4&4&4&lUNLIMITED ADVENTURES &f[§x&a&c&e&6&7&31.20.4&f]"
-    '2': "   §x&f&f&c&8&0&0⭐ Ambient Sounds §x&9&0&e&3&4&e🪣 3D Backpacks §x&f&7&4&1&5&4☠ §x&f&7&4&1&5&4Dungeons"
-```
-
-### 'ESC' menu logo
-
-#### Modify logo
-
-'ESC' menu logo can be modified using a resource pack.\
-You can find the texture of the logo in: `assets/minecraft/textures/custom/icons/title.png`\
-Edit this texture to change how the logo looks.
-
-#### Delete logo
-
-If you for some reason want to delete the logo altogether, please go to: `assets/minecraft/lang/en_us.json` and edit the line to your own custom text, or delete the file altogether to revert default behaviour.
 
 
