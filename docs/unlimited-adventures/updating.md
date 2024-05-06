@@ -53,6 +53,16 @@ Copy all contents of `Update Files` to your main server folder.\
 (Click "Change files in the destination")
 
   </TabItem>
+    <TabItem value="Other versions" label="Other versions">
+
+#### Step 1
+Stop your server.
+
+#### Step 2
+Copy all contents of `Update Files/` folder to your main server folder.\
+(Click "Change files in the destination")
+
+  </TabItem>
 </Tabs>
 
 :white_check_mark: Done! You can enjoy the latest version of Unlimited Adventures!
