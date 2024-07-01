@@ -19,6 +19,6 @@ Treat everyone else as you would like to be treated and it's going to be alright
 - Please note that BuiltByBit is handling the refunds, sometimes you will have to wait a week or two for the refund to process.
 
 :::note
-BuiltByBit only allows a refund if you have purchased our product alone, as a single item in one basket. If you purchase multiple items at once, we can't refund you through BuiltByBit. We will refund you manually, but it will not include the VAT tax you have paid, because we can't recover it.\
+BuiltByBit only allows a refund if you have purchased our product alone, as a single item in one basket. If you purchase multiple items at once, we can't refund you through BuiltByBit.\
 *(According to BuiltByBit, this will be resolved in the Q1 of 2024)*
 :::
