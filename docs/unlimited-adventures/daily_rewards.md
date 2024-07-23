@@ -7,7 +7,7 @@ title: 'Daily Rewards'
 
 # :gift: Daily Rewards Config
 
-Valiant Survival utilizes our own, powerful, custom-developed Daily Rewards system.
+Unlimited Adventures utilizes its own, powerful, custom-developed Daily Rewards system.
 Thanks to this, you can use: up to 4 different reward types, 4 placeholders and 2 variables!
 
 
@@ -31,7 +31,7 @@ In order to add a gems reward, you have to type in:
 
 
 #### :hammer: Item Rewards:
-In order to add a gold reward, you have to type in:
+In order to add an item reward, you have to type in:
 `[amount] of [item]`, for example: `5 of iron sword`.
 
 :::tip
