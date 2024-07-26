@@ -6,9 +6,10 @@ title: Terms of Service
 Treat everyone else as you would like to be treated and it's going to be alright! :heart:
 
 ## :bell: Please be civil and professional
-- NSFW content is not allowed.
+- Be respectful towards other users.
 - Spamming, bad language or insulting other users is not allowed.
 - Advertising of your own content is not allowed.
+- NSFW content is not allowed.
 
 ## :no_entry: DO NOT SHARE OUR PRODUCT FILES
 - Sharing our licensed software is illegal and will be punished. It is your responsibility to make sure files you have downloaded don't get leaked.
@@ -20,5 +21,4 @@ Treat everyone else as you would like to be treated and it's going to be alright
 
 :::note
 BuiltByBit only allows a refund if you have purchased our product alone, as a single item in one basket. If you purchase multiple items at once, we can't refund you through BuiltByBit.\
-*(According to BuiltByBit, this will be resolved in the Q1 of 2024)*
 :::

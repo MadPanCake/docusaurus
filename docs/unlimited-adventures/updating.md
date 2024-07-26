@@ -23,6 +23,8 @@ If you are on 2.0, download 2.1, finish all the steps and only then update to 2.
 You should **always** backup your files first, before doing any changes or updates.
 :::
 
+:::
+
 
 <Tabs>
   <TabItem value="2.6.1" label="Update 2.6.1">
