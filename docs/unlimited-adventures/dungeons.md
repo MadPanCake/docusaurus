@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 12
 title: 'Dungeons'
 ---
 
@@ -23,13 +23,13 @@ To get all the Dungeons commands, please execute: `/dungeons help`
 #### :closed_book: Dungeons Menu
 
 Configure Dungeons menu in:\
-```plugins/CommandPanels/dungeons```
+```plugins/CommandPanels/panels/utility/dungeons```
 
 
 #### :gear: How to configure Dungeons?
 
 You can find Dungeon's configuration files in:
-```plugins/Dungeons/```
+```unlimited_adventures/Dungeons/```
 
 
 

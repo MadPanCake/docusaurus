@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: 'Updating'
 ---
 
@@ -30,7 +30,7 @@ You should **always** backup your files first, before doing any changes or updat
   <TabItem value="2.6.1" label="Update 2.6.1">
 
 #### Step 1
-Stop your server.
+:red_circle: Stop your server.
 
 #### Step 2
 Remove folders:
@@ -58,7 +58,7 @@ Copy all contents of `Update Files` to your main server folder.\
     <TabItem value="Other versions" label="Other versions">
 
 #### Step 1
-Stop your server.
+:red_circle: Stop your server.
 
 #### Step 2
 Copy all contents of `Update Files/` folder to your main server folder.\
