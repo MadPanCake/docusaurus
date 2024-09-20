@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 8
 title: 'Basic Configuration'
 ---
 
@@ -29,9 +29,6 @@ In order to do that, you can use a plugin like [Chunky](https://dev.bukkit.org/p
 Pre-generating your world can improve the performance of your server.\
 We recommend a world size of 5,000 x 5,000 or 10,000 x 10,000.
 
-### Homes
-
-`/sethome` and `/home` are disabled to increase immersion. Instead, players have to craft Home Teleportation Scrolls if they want to quickly get back to their bases.
 
 
 

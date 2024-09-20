@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 title: 'Custom Items'
 ---
 
@@ -9,26 +9,29 @@ title: 'Custom Items'
 
 The Forge is a very special feature that let's players craft new powerful items.
 
-:::tip
+:::tip[How to get custom items]
 You can get all custom items by executing: `/getitems`\
-To get any item, execute: `/givecustomitem [item name] [player name]`
+To get any item, execute: `/giveitem [item name] [player name]`
 :::
 
-### Edit content
 
-#### How to edit items?
+#### :bulb: How to add new items?
+> All custom items are found in: `unlimited_adventures/CustomItems/items.yml`\
+> You can add new items simply by duplicating an existing item from the config and changing it's name and properties to your liking.\
+> Get your newly created with with `/giveitem [item name]` command!
+
+
+#### :pencil2: How to edit items?
 > You can edit the parameters of custom items by going to:
-```unlimited_adventures/CustomItems/items.yml```
+`unlimited_adventures/CustomItems/items.yml`
 
-#### How to change recipes?
+#### :pencil2: How to change recipes?
 > Edit recipes for custom items by going to:
-```unlimited_adventures/CustomItems/recipes.yml```
+`unlimited_adventures/CustomItems/recipes.yml`
 
-#### How to unlock a recipe?
+#### :unlock: How to unlock a recipe?
 > If you have it enabled in the config, players will be required to unlock a recipe first, before they can forge an item.\
 > In that case, you can unlock items for the players by executing `/forgeunlock [player name] [item name]`, for example: `/forgeunlock Steve1337 adventure_backpack`
-
-### Add new content
 
 
 

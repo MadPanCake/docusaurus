@@ -1,7 +1,9 @@
 ---
-sidebar_position: 6
+sidebar_position: 9
 title: 'Branding'
 ---
+
+import img1 from './assets/title_bar.png';
 
 # :gem: Branding
 
@@ -12,13 +14,20 @@ This page will explain how to change the most important branding features of the
 
 ### 'ESC' menu logo
 
+
+<img src={img1} alt="Image Description" width="732" height="250"/>
+
 #### Modify logo
 
 'ESC' menu logo can be modified using a resource pack.\
 You can find the texture of the logo in: `assets/minecraft/textures/custom/icons/title.png`\
 Edit this texture to change how the logo looks.
 
-:::tip[Logo Size]
+:::tip[I can't draw]
+If you don't know how to draw your own logo, there are tools that can help you generate your own logo. [Click here](https://www.google.com/search?q=minecraft+logo+generator&oq=minecraft+logo+generator&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQgzNTA1ajBqMagCALACAA&sourceid=chrome&ie=UTF-8)
+:::
+
+:::warning[Logo Size]
 The logo can be max. 256x256px big. This is a Minecraft limitation.
 :::
 

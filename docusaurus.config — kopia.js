@@ -63,6 +63,35 @@ const config = {
         defaultMode: 'dark',
         respectPrefersColorScheme: false
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'ETK2PWH2DV',
+  
+        // Public API key: it is safe to commit it
+        apiKey: 'f378b626f34e34dd72d5d44120fedb65',
+  
+        indexName: 'YOUR_INDEX_NAME',
+  
+        // Optional: see doc section below
+        contextualSearch: true,
+  
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+  
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+  
+        // Optional: Algolia search parameters
+        searchParameters: {},
+  
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+  
+        //... other Algolia params
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -72,7 +101,6 @@ const config = {
           src: 'img/logo.jpg',
         },
         items: [
-          {to: 'blog', label: 'Blog', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -101,7 +129,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       metadata: [
-        { name: 'description', content: 'Official Unlimited Adventures Documentation'}
+        { name: 'description', content: 'Official Ender Nerds Documentation'}
       ],
     }),
 };
