@@ -23,7 +23,7 @@ This guide has been made to provide quick help in such situations!
 
 There are a few possible reasons why the texture pack doesn't work on your server.
 
-1. Have you installed Oraxen or ItemsAdder? If yes, then you have to merge the resource pack. Use the respective guides: [Oraxen](Oraxen) [ItemsAdder](ItemsAdder)
+1. Have you installed Oraxen or ItemsAdder? If yes, then you have to merge the resource pack. Use the respective guides: [Oraxen](oraxen) [ItemsAdder](itemsadder)
 2. Check if `force unicode` setting is disabled in your client language settings.
 3. Have you made any modifications to the resource pack or models? Your changes can easily break stuff, please revert to the default files and test your changes one by one to find out what causes issues.
 4. If you are using Oraxen or ItemsAdder, you have to remove the `modelengine` folder from your resource pack. Did you do it?
