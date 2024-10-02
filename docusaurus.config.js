@@ -84,7 +84,7 @@ const config = {
             label: 'Discord',
             href: 'https://discord.gg/wdBFC7Hc6X'
           },
-          {href: 'https://endernerdskr.netlify.app/docs/category/unlimited-adventures', label: 'Korean', position: 'right'}
+          {href: 'https://endernerdskr.netlify.app/docs/intro/', label: 'Korean', position: 'right'}
         ],
       },
       footer: {
