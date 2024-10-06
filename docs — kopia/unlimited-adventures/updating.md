@@ -27,27 +27,76 @@ You should **always** backup your files first, before doing any changes or updat
 
 
 <Tabs>
+
+
+  <TabItem value="2.8" label="Update 2.8">
+
+#### Step 1
+:red_circle: Stop your server.
+
+#### Step 2
+❌ Remove folders:
+- `unlimited_adventures/CustomItems/`
+- `unlimited_adventures/Ambients/`
+- `plugins/ChatManager`
+- `plugins/FastAsyncWorldEdit`
+- `plugins/NexEngine`
+
+#### Step 3
+❌ Remove plugins .jar files (don't remove their folders!):
+- `ChatManager.jar`
+- `Chunky.jar`
+- `FastAsyncWorldEdit.jar`
+- `ExcellentEnchants.jar` 
+- `NexEngine.jar`
+- `World Edit.jar`
+- `World Guard.jar`
+
+
+#### Step 4
+❌ Remove scripts:
+- `plugins/Skript/scripts/chat_manager.sk`
+- `plugins/Skript/scripts/ambients.sk`
+
+#### Step 5
+⬇️ Download [Paper 1.21](https://api.papermc.io/v2/projects/paper/versions/1.21/builds/130/downloads/paper-1.21-130.jar)
+
+#### Step 5
+⬇️ Update plugins:
+- Update [TAB](https://github.com/NEZNAMY/TAB/releases/download/4.1.8/TAB.v4.1.8.jar).
+- Update [Citizens](https://ci.citizensnpcs.co/job/Citizens2/3580/artifact/dist/target/Citizens-2.0.35-b3580.jar).
+- Update [Model Engine](https://mythiccraft.io/index.php?pages/official-modelengine4-download/&download=free&f=4.0.7).
+- Update [Mythic Mobs](https://www.mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.7.2.jar).
+
+
+#### Step 6
+Copy all contents of `Update Files` to your main server folder.\
+(Click "Change files in the destination")
+
+
+
+  </TabItem>
   <TabItem value="2.6.1" label="Update 2.6.1">
 
 #### Step 1
 :red_circle: Stop your server.
 
 #### Step 2
-Remove folders:
+❌ Remove folders:
 - `spawn`
 - `plugins/CommandPanels/panels`
 
 #### Step 3
-Remove files:
+❌ Remove files:
 - `plugins/worldedit.jar`
 - `plugins/AureliumSkills.jar` 
 - `plugins/Skript/scripts/rtp.sk`
 
 #### Step 4
-Download [Paper 1.20.4](https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/485/downloads/paper-1.20.4-485.jar)
+⬇️ Download [Paper 1.20.4](https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/485/downloads/paper-1.20.4-485.jar)
 
 #### Step 5
-Update [Citizens](https://ci.citizensnpcs.co/job/citizens2/3373/artifact/dist/target/Citizens-2.0.33-b3373.jar).
+⬇️ Update [Citizens](https://ci.citizensnpcs.co/job/citizens2/3373/artifact/dist/target/Citizens-2.0.33-b3373.jar).
 
 
 #### Step 6
