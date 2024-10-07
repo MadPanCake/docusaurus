@@ -37,4 +37,4 @@ Some of the naturally spawning mobs have a chance to drop accessory items on dea
 
 ### How to edit item drop rates?
 
-Custom item drop rates can be modified in `unlimited_adventures/TheForge/drops.yml`
+Custom item drop rates can be modified in `unlimited_adventures/CustomItems/drops.yml`
