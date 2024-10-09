@@ -23,6 +23,6 @@ That list can be used to add, remove or rename tags.
 
 
 #### In order to modify the actual items, you need to go to:
-`plugins/CommandPanels/panels/ancient_traveler_menu.yml`\
+`plugins/CommandPanels/panels/shops/ancient_traveler.yml`\
 In that file, you will find the 'custom-item' node, that contains all of the items sold by the Ancient Traveler.\
 That's the spot in which you can modify them.

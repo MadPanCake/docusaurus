@@ -41,16 +41,17 @@ You should **always** backup your files first, before doing any changes or updat
 - `plugins/ChatManager`
 - `plugins/FastAsyncWorldEdit`
 - `plugins/NexEngine`
+- `plugins/ExcellentEnchants`
 
 #### Step 3
-❌ Remove plugins .jar files (don't remove their folders!):
+❌ Remove plugins .jar files:
 - `ChatManager.jar`
 - `Chunky.jar`
 - `FastAsyncWorldEdit.jar`
 - `ExcellentEnchants.jar` 
 - `NexEngine.jar`
 - `World Edit.jar`
-- `World Guard.jar`
+- `World Guard.jar` (don't remove the folder, it contains regions!)
 
 
 #### Step 4
