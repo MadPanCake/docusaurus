@@ -38,4 +38,4 @@ Some server list will also partner with very popular servers and those servers w
 
 Fortunately there are infinitely better ways to promote your server! You don't have to rely on sketchy websites who will sell features spots and never actually show your server on the first page!
 
-:arrow_right: You can use social media and internet press to your advantage! Read about truly effective ways to monetize your server in our [recent blog post!](promotion)
+:arrow_right: You can use social media and internet press to your advantage! Read about truly effective ways to promote your server in our [recent blog post!](promotion)
