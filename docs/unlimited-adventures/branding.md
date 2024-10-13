@@ -19,7 +19,7 @@ This page will explain how to change the most important branding features of the
 
 #### Modify logo
 
-'ESC' menu logo can be modified using a resource pack.\
+'ESC' menu logo can be modified using a **resource pack**.\
 You can find the texture of the logo in: `assets/minecraft/textures/custom/icons/title.png`\
 Edit this texture to change how the logo looks.
 
@@ -41,7 +41,7 @@ Server description is handled by our custom-made Adventure Core. It can be modif
 
 ```
 motd_line:
-    '1': "            §x&6&d&d&4&4&4&lUNLIMITED ADVENTURES &f[§x&a&c&e&6&7&31.20.4&f]"
+    '1': "            §x&6&d&d&4&4&4&lUNLIMITED ADVENTURES &f[§x&a&c&e&6&7&31.21&f]"
     '2': "   §x&f&f&c&8&0&0⭐ Ambient Sounds §x&9&0&e&3&4&e🪣 3D Backpacks §x&f&7&4&1&5&4☠ §x&f&7&4&1&5&4Dungeons"
 ```
 
