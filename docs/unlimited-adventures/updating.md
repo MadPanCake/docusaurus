@@ -34,7 +34,7 @@ You should **always** backup your files first, before doing any changes or updat
 :red_circle: Stop your server.
 
 #### Step 2
-Copy all contents of `Update Files/` folder to your main server folder.\
+💾 Copy all contents of `Update Files/` folder to your main server folder.\
 (Click "Change files in the destination")
 
   </TabItem>
@@ -112,7 +112,7 @@ Copy all contents of `Update Files/` folder to your main server folder.\
 
 
 #### Step 6
-Copy all contents of `Update Files` to your main server folder.\
+💾 Copy all contents of `Update Files` to your main server folder.\
 (Click "Change files in the destination")
 
 

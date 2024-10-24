@@ -9,10 +9,15 @@ If you purchase a qualified product and after testing it, you decide that it's n
 
 
 ## :moneybag: Refunds
-- Our software can be refunded for up to 30 days after purchase. Qualified products are: Unlimited Adventures & Adventure Backpacks
+- Our software can be refunded for up to 30 days after purchase.
+- Refund is impossible if you purchase Unlimited Adventures along with other items in the basket. This is a BuiltByBit limitation (precisely, Tebex limitation).
 - Breaking TOS or acting in malicious intent might affect your right to request a refund.
-- Please note that BuiltByBit is handling the refunds, sometimes you will have to wait a week or two for the refund to process.
+- The refund can take up to a week before it's processed.
 
-:::note
-BuiltByBit only allows a refund if you have purchased our product alone, as a single item in one basket. If you purchase multiple items at once, we can't refund you through BuiltByBit.\
-:::
+
+## ❤️ Can I buy again?
+
+The development tempo of Unlimited Adventures causes many users to reconsider their refunds and ask us if purchasing the setup again is possible. The answer is: absolutely!\
+We love games and we simply don’t have the heart to prevent anyone from having fun with games too!
+
+If you’d like to repurchase, please message me on [Discord](https://discord.gg/wdBFC7Hc6X) or [BuiltByBit](https://builtbybit.com/members/simon-dev.171954/)!
