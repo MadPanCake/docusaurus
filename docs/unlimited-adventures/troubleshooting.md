@@ -48,7 +48,7 @@ You have likely removed the `spawn` region from spawn either manually, or by rem
 
 #### 🪶 I see a feather above my head
 
-Seeing feather above your head means the [Adventure Apparel](adventure-apparel) resource pack files have broken.\
+Seeing feather above your head means the [Adventure Apparel](adventure_apparel) resource pack files have broken.\
 Try to revert any resource pack changes you did to fix the issue.
 
 #### 🧔🏽 NPC's have an unwanted text above their head
