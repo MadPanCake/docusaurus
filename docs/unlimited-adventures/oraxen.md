@@ -7,7 +7,7 @@ import ReactPlayer from 'react-player'
 import video from './assets/oraxen_installation.mp4';
 
 
-# How to make Unlimited Adventures work with Oraxen
+# 🖼️ How to make Unlimited Adventures work with Oraxen
 
 In order for the setup to work with Oraxen, you need to merge the resource pack with Oraxen.\
 It's actually a very simple process. Please refer to the text guide and use the video as a supplement.

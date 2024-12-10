@@ -9,7 +9,7 @@ import img3 from './assets/rank_textures_3.png';
 import img4 from './assets/rank_textures_4.png';
 
 
-# Rank Textures (prefixes)
+# 🖼️ Rank Textures (prefixes)
 
 This guide will explain Rank Textures.
 

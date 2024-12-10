@@ -4,7 +4,7 @@ title: 'Basic Configuration'
 ---
 
 
-
+# ⚙️ Basic Configuration
 
 
 We have put in a big effort in order to make our setup as easy to configure as possible. Here are a few example features that you can configure:

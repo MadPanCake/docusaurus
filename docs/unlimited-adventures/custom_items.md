@@ -5,7 +5,7 @@ title: 'Custom Items'
 
 
 
-# 🏹 Custom Items
+# 🪃 Custom Items
 
 Unlimited Adventures is equipped with a powerful, built-in custom items system.\
 This page will explain how to create new custom items, modify them and how to summon them.
@@ -75,7 +75,7 @@ belt_of_vitality:
 As you can see, I have specified the name, item type, custom model data (so the item can have it's own custom texture) and wrote a short lore description.
 But the most important things are down below, the `health` and `regeneration` statistics are applied on the player when he's wearing the accessory.
 
-#### Available statistics:
+#### ⚙️ Available attributes:
 - Strength
 - Health
 - Regeneration
@@ -88,10 +88,68 @@ But the most important things are down below, the `health` and `regeneration` st
 - Haste
 - Oxygen
 
+## 🎨 Give your item a custom texture
+
+#### Upload your new texture to the server resource pack
+1. First, you have to add the texture to your resource pack. You need to [download](resource-pack) it on your computer so you can update it.
+2. Put your texture in the `assets/minecraft/textures/custom/items/` folder.
+3. Now you need to create a model for your texture, no matter whether it's 3D or not, this model allows us to create a brand new texture, instead of having to sacrifice existing Minecraft items:
+
+Go to `assets/minecraft/models/custom/items/`. Create a new `.json` file or just copy the `amethyst_axe.json ` and rename it to your items name.
+Edit its content:
+```
+{
+  "parent": "item/handheld",    <---  Change this to "item/generated" if the item you're creating is not held like a tool.
+  "textures": {
+    "layer0": "custom/items/dino_sword"
+  }
+}
+```
+
+4. Now we need to link this model to a custom model data of an existing vanilla item - I'll use diamond sword.
+
+Go to `assets/minecraft/models/item/diamond_sword.json`
+```
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_sword"
+  },
+  "overrides": [
+  { "predicate": {"custom_model_data": 730}, "model": "custom/items/bone_sword"},
+  { "predicate": {"custom_model_data": 731}, "model": "custom/items/emerald_sword"},
+  { "predicate": {"custom_model_data": 732}, "model": "custom/items/copper_sword"},
+  { "predicate": {"custom_model_data": 733}, "model": "custom/items/amethyst_sword"},
+  { "predicate": {"custom_model_data": 734}, "model": "custom/items/crocodile_sword"},
+  { "predicate": {"custom_model_data": 735}, "model": "custom/items/venomous_fang_dagger"},
+  { "predicate": {"custom_model_data": 736}, "model": "custom/items/dino_sword"}
+  ]
+}
+```
+We are linking it to the path of the model we have created in the previous step. Full path is `assets/minecraft/models/custom/items/dino_sword.json`
+
+
+#### Update the item config
+Now we'll add the just assigned custom model data to our custom item's config.
+
+`unlimited_adventures/CustomItems/items.yml`:
+```
+dino_sword:
+    name: "&6Dinosaur Sword"
+    item: diamond sword
+    custom_model_data: 736   <-----   Add this line! ⚙️
+    lore:
+    - "&7This sword belongs to"
+    - "a very cool dinosaur."
+```
 
 
 
-### :pencil2: How to change crafting recipes?
+
+
+
+
+## :pencil2: How to change crafting recipes?
 Edit the Forge Block recipes for custom items by going to: `unlimited_adventures/CustomItems/recipes.yml`
 
 ```
@@ -105,8 +163,8 @@ recipes:
     - 3 of slimeball
 ```
 
-### :unlock: How to unlock a recipe?
-If you have enabled it in the config, players will be required to unlock a recipe first, before they can forge an item.\
+## :unlock: How to unlock a recipe?
+⚙️ **If you have enabled it in the config**, players will be required to unlock a recipe first, before they can forge an item.\
 In that case, you can unlock items for the players by executing:\
 `/forgeunlock [player name] [item name]`, for example: `/forgeunlock Simon adventure_backpack`
 
