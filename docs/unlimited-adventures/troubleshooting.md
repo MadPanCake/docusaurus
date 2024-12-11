@@ -46,6 +46,13 @@ You have most likely removed the `wild_tp` region which indicates an area that t
 
 You have likely removed the `spawn` region from spawn either manually, or by removing the WorldGuard folder.
 
+#### ✨ Random Teleport is slow
+
+Our Random Teleport in itself is completely instant - it doesn't introduce any lag or delay.
+But when you are performing a RTP, it might try to generate a new chunk for you. That's what causes the visible lag.\
+Easy solution to this problem is to pregenerate your map in a radius that's at least as big as your RTP range.\
+If you do this, you will get instantenous Random Teleporting on your server! ⭐
+
 #### 🪶 I see a feather above my head
 
 Seeing feather above your head means the [Adventure Apparel](adventure_apparel) resource pack files have broken.\

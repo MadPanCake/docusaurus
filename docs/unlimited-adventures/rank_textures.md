@@ -47,7 +47,15 @@ It's 5x new rank prefixes for $8.90. Contact me on [Discord](https://discord.gg/
 
 Go to `plugins/TAB/groups.yml` and change this:
 
-Default:\
-    tabprefix: "&f "\
+```
+Default:
+  tabprefix: "&7"
+  tagprefix: "&7"
+```
+To this:
+```
+Default:
+    tabprefix: "&f "
     tagprefix: "&f "
+```
 
