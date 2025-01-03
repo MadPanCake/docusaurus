@@ -21,8 +21,11 @@ Find `server.properties` file in the main server folder.
 Open the file and look for `resource-pack=`
 
 #### Step 3
-Notice that there is a backwards slash added in the beginning. **You have to remove it!**\
-`https\://download.mc-packs.net/NOT-AN-ACTUAL-LINK.zip`
+Notice that there is a backwards slash added in the beginning. **You have to remove it!** ❌
+```
+https\://download.mc-packs.net/NOT-AN-ACTUAL-LINK.zip
+     ⇧
+```
 
 
 Your link should look like that:\
@@ -62,11 +65,12 @@ Copy resource pack link and the SHA1.
 Locate the `resource-pack` and paste the new link here.\
 Locate `resource-pack-sha1=` and paste the new SHA1 here.
 
-`server.properties`:
+`server.properties:`
 ```
-resource-pack=https\://download.mc-packs.net/pack/afdbe0108c6d2126eddb96c57013829bd00e4300.zip
-resource-pack-id=63b5fbeb-3dba-3aaa-b846-fed441fd2c57
+resource-pack=https\://YOUR-LINK.zip
+resource-pack-id=INSERT-YOUR-ID
 resource-pack-prompt=
-resource-pack-sha1=e40c46ae257e2505deb6a304659e8f098b6837dc
+resource-pack-sha1=INSERT-YOUR-SHA1
 ```
 
+Don't worry about the backwards slash being automatically added after server startup. It's normal.
