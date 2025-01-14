@@ -4,20 +4,15 @@ title: Money Back Guarantee
 
 # 100% Money Back Guarantee
 
-We are the only studio that's so confident with it's products that we offer a **100% Money Back Guarantee!**\
-If you purchase a qualified product and after testing it, you decide that it's not satisfying, you can [ask for a refund](https://discord.gg/wdBFC7Hc6X).
-
+No other studio matches our confidence! That’s why we proudly offer a 100% Money-Back Guarantee. Try any qualified product, and if it doesn’t meet your expectations, your refund is just a [request away!](https://discord.gg/wdBFC7Hc6X)!
 
 ## :moneybag: Refunds
-- Our software can be refunded for up to 30 days after purchase.
-- Refund is impossible if you purchase Unlimited Adventures along with other items in the basket. This is a BuiltByBit limitation (precisely, Tebex limitation).
-- Breaking TOS or acting in malicious intent might affect your right to request a refund.
-- The refund can take up to a week before it's processed.
-
+- You can request a refund for Unlimited Adventures within 30 days of purchase.
+- Violating our Terms of Service or acting with malicious intent may impact your eligibility for a refund.
+- Refund requests are usually processed within 7 days.
 
 ## ❤️ Can I buy again?
 
-The development tempo of Unlimited Adventures causes many users to reconsider their refunds and ask us if purchasing the setup again is possible. The answer is: absolutely!\
-We love games and we simply don’t have the heart to prevent anyone from having fun with games too!
+With the incredible progress of Unlimited Adventures, users often ask if they can repurchase their setup after a refund. The answer is a resounding yes! We love games, and we’re all about sharing that joy with you.
 
 If you’d like to repurchase, please message me on [Discord](https://discord.gg/wdBFC7Hc6X) or [BuiltByBit](https://builtbybit.com/members/simon-dev.171954/)!
