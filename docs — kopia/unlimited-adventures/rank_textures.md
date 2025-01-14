@@ -9,7 +9,7 @@ import img3 from './assets/rank_textures_3.png';
 import img4 from './assets/rank_textures_4.png';
 
 
-# Rank Textures (prefixes)
+# 🖼️ Rank Textures (prefixes)
 
 This guide will explain Rank Textures.
 
@@ -47,7 +47,15 @@ It's 5x new rank prefixes for $8.90. Contact me on [Discord](https://discord.gg/
 
 Go to `plugins/TAB/groups.yml` and change this:
 
-Default:\
-    tabprefix: "&f "\
+```
+Default:
+  tabprefix: "&7"
+  tagprefix: "&7"
+```
+To this:
+```
+Default:
+    tabprefix: "&f "
     tagprefix: "&f "
+```
 

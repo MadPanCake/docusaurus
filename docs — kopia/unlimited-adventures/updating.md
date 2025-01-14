@@ -15,18 +15,29 @@ import TabItem from '@theme/TabItem';
 If you're already using the setup, but would like to install the update, you can easily do it!
 
 :::warning[Don't skip versions!]
-You can't skip setup versions! For example, you can't go from 2.0 to 2.4\
-If you are on 2.0, download 2.1, finish all the steps and only then update to 2.2, then 2.3 and so on, until you are on the latest version.
+You can't skip setup versions! For example, you can't go from 2.6 to 2.8\
+If you are on 2.6, download 2.7, finish all the steps and only then update to 2.8, then 2.9 and so on, until you are on the latest version.
 :::
 
-:::warning[Backup first!]
+:::danger[Backup first!]
 You should **always** backup your files first, before doing any changes or updates.
 :::
 
-:::
+
 
 
 <Tabs>
+
+    <TabItem value="Other versions" label="Other versions">
+
+#### Step 1
+:red_circle: Stop your server.
+
+#### Step 2
+💾 Copy all contents of `Update Files/` folder to your main server folder.\
+(Click "Change files in the destination")
+
+  </TabItem>
 
 
   <TabItem value="2.8" label="Update 2.8">
@@ -71,7 +82,7 @@ You should **always** backup your files first, before doing any changes or updat
 
 
 #### Step 6
-Copy all contents of `Update Files` to your main server folder.\
+💾 Copy all contents of `Update Files` to your main server folder.\
 (Click "Change files in the destination")
 
 
@@ -101,20 +112,12 @@ Copy all contents of `Update Files` to your main server folder.\
 
 
 #### Step 6
-Copy all contents of `Update Files` to your main server folder.\
+💾 Copy all contents of `Update Files` to your main server folder.\
 (Click "Change files in the destination")
 
-  </TabItem>
-    <TabItem value="Other versions" label="Other versions">
-
-#### Step 1
-:red_circle: Stop your server.
-
-#### Step 2
-Copy all contents of `Update Files/` folder to your main server folder.\
-(Click "Change files in the destination")
 
   </TabItem>
+
 </Tabs>
 
 :white_check_mark: Done! You can enjoy the latest version of Unlimited Adventures!

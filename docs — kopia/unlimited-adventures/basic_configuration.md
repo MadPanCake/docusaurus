@@ -4,15 +4,15 @@ title: 'Basic Configuration'
 ---
 
 
-
+# ⚙️ Basic Configuration
 
 
 We have put in a big effort in order to make our setup as easy to configure as possible. Here are a few example features that you can configure:
 
 ### :cloud: Rules, Welcome Message, Tips, Chat Prefixes & Colors
-Features related to chat are controlled by ChatManager plugin. In order to configure them to your own liking, you should head to:
-```plugins/ChatManager/``` folder.
-- `AutoBroadcast.yml` - the tips that are sent on chat every 2 minutes.
+Features related to chat are controlled by TChat plugin. In order to configure them to your own liking, you should head to:
+```plugins/TChat/``` folder.
+- `autobroadcast.yml` - the tips that are sent on chat every 2 minutes.
 - `config.yml` - rules, chat prefixes, colors.
 
 ### :bookmark_tabs: Scoreboard, Tablist

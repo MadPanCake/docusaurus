@@ -52,12 +52,12 @@ yellowstone_elk:
 
 ## ➕ How to add new sounds?
 
-Adding new sounds is extremely simple. You just need the sound you'd like to add and then add it to the list of sounds using our simple yet powerful configuration!
+Adding new sounds is very straightforward. Simply add the sound to the resource pack and update the configuration files!
 
 ### 🎨 [Step 1/2] Add sound to the resource pack
 
 #### ✅ Ensure your sound is properly saved:
-- Make sure your sound is in the .ogg format (other formats simply will not play in Minecraft!)
+- Ensure your sound is in the .ogg format (Minecraft doesn't support other formats!).
 - Want a 3D sound? Make it MONO.
 - Want a sound which never accounts for direction it's playing from? Make it STEREO.
 

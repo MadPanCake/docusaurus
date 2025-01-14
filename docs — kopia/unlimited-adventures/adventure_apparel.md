@@ -5,7 +5,7 @@ title: 'Adventure Apparel 3D'
 
 
 
-# :hammer:  **Adventure Apparel**
+# 👑 **Adventure Apparel**
 
 Adventure Apparel is an **exclusive**, **custom-coded** system that allows your players to wear visible, fully 3D backpacks and tools on their body!
 

@@ -6,29 +6,48 @@ title: 'FAQ'
 
 # :thinking: Frequently Asked Questions
 
-Hello! Thank you for taking interest in Unlimited Adventures! In this section I will answer the most common questions about the setup!\
-If you prefer to **talk to me directly**, then join our [Discord](https://discord.gg/wdBFC7Hc6X) and I'll gladly answer all of your questions!
+Hi there! Thanks for your interest in Unlimited Adventures!
+If you’d prefer to talk to me directly, then join our [Discord](https://discord.gg/wdBFC7Hc6X), and I'll be happy to answer all of your questions!
 
-### No bullshit now, why should I purchase Unlimited Adventures?
-Unlimited Adventures is a state-of-the-art, adventure-driven experience.\
-I've designed it to enhance vanilla survival gameplay by adding new content, exploration and progression opportunities.\
-With hundreds of hours designing and developing the setup, every feature is extremely polished.
+### What makes Unlimited Adventures special?
 
-#### In short:
-- Exciting world filled with new biomes and structures.
-- Custom mobs spawn on the map, filling it with even more life! Find buffaloos, crocodiles, grizzly bears and goblins.
-- Dungeons, bosses, quests, new monsters and custom items.
-- Exclusive features such as: 3D Backpacks & Weapons, Ambient Sounds, Dungeons, Adventure Pass and way more!
-- Amazing ambient sounds
+- :earth_americas: A thrilling world with new biomes and structures to explore.
+- :wolf: Custom mobs bring the map to life, including buffaloos, crocodiles, grizzly bears, and goblins.
+- :dart: Adventure-focused gameplay with fresh challenges and progression options.
+- :crossed_swords: Dungeons, bosses, quests, new monsters, and custom items to discover.
+- :star: Exclusive features like 3D Backpacks & Weapons, Ambient Sounds, Dungeons, Adventure Pass, and more!
+- :bulb: Beautifully designed menus, item textures that blend seamlessly with Minecraft, and professionally crafted custom sounds.
+
+
+
+
+
+
+
+
+
+
+
+
 
 :::tip
-## You can test our server! - IP: EnderNerds.com
+## You can test our server! - IP: endernerds.com
+When joining on Bedrock, use port `25567`
 :::
 
 ## :arrow_forward: Setup
 
 #### What Minecraft version is the setup using?
 > The setup is running natively on **Paper 1.21**
+
+#### Is the setup Bedrock compatible?
+> Yes! Unlimited Adventures can be joined on all devices! Crossplay Feature is included in the base package - you don't have to buy an addon! ❤️
+> Use port `25567` to join our Bedrock test server!
+
+#### I have a visual problem with Bedrock
+> Please try resetting your cached resource packs.
+> Main Menu -> Storage -> Cached Data -> Delete all Unlimited Adventures, Model Engine and Geyser packs
+
 
 #### 🌲 Trees look weird!
 > Our tree leaves have a custom, bushy texture, that makes the foliage beautiful.\

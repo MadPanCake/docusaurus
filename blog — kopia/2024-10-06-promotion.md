@@ -1,5 +1,5 @@
 ---
-slug: promotioon
+slug: promotion
 title: How to promote your server?
 authors: [simon]
 ---
