@@ -4,7 +4,7 @@ title: 'Setup Installation'
 ---
 
 import ReactPlayer from 'react-player'
-import video from './assets/setup_installation.mov';
+import video from './assets/setup_installation_2.mov';
 
 # :hatching_chick: Setup Installation
 
