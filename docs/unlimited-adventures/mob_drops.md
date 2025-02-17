@@ -10,7 +10,7 @@ Some of the naturally spawning mobs have a chance to drop accessory items on dea
 ### Drops list:
 | Mob | Drops |
 | - | - |
-| Zombie | Flashlight (only in Dungeons), Shackle, Zombie Brain |
+| Zombie | Shackle, Zombie Brain |
 | Skeleton | Miner Helmet (only in Dungeons), Bone Necklace, Skeleton Skull |
 | Spider | Spider Venom, Ninja Cloak |
 | Creeper | Rocket Boots |
