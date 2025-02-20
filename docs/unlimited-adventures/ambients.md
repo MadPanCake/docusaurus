@@ -58,8 +58,8 @@ Adding new sounds is very straightforward. Simply add the sound to the resource 
 
 #### ✅ Ensure your sound is properly saved:
 - Ensure your sound is in the .ogg format (Minecraft doesn't support other formats!).
-- Want a 3D sound? Make it MONO.
-- Want a sound which never accounts for direction it's playing from? Make it STEREO.
+- Directional Sound: Make it MONO.
+- Non-Directional Sound ('plays in your head'): Make it STEREO.
 
 #### ⬆️ Now we need to upload your sound into the [resource pack](resource-pack).
 - Go to `assets/minecraft/sounds/custom/`
@@ -92,9 +92,10 @@ If you'd like to have multiple sound variants that will be chosen at random, do 
 Please notice how the last sound doesn't have a comma at the end. It's important!
 
 
-### ⚙ [Step 2/2] Add sound to the sounds list
+### ⚙ [Step 2/2] Add sound to the ambients sounds list
 
 #### ➕ Just add your sound configuration to the file
+You can find the file in `unlimited_adventures/Ambients/sounds.yml`
 
 An example config:
 ```

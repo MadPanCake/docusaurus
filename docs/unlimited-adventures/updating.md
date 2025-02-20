@@ -15,12 +15,11 @@ import TabItem from '@theme/TabItem';
 If you're already using the setup, but would like to install the update, you can easily do it!
 
 :::warning[Don't skip versions!]
-You can't skip setup versions! For example, you can't go from 2.6 to 2.8\
-If you are on 2.6, download 2.7, finish all the steps and only then update to 2.8, then 2.9 and so on, until you are on the latest version.
+You must update sequentially! For example, you can't jump directly from 2.6 to 2.8. If you're on 2.6, first update to 2.7, complete all the steps, then move to 2.8, 2.9, and so on until you reach the latest version.
 :::
 
 :::danger[Backup first!]
-You should **always** backup your files first, before doing any changes or updates.
+Always create a backup of your files before making any changes or updates. Better safe than sorry!
 :::
 
 

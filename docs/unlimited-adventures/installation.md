@@ -1,16 +1,16 @@
 ---
 sidebar_position: 2
-title: 'Setup Installation'
+title: 'Installation'
 ---
 
 import ReactPlayer from 'react-player'
 import video from './assets/setup_installation_2.mov';
 
-# :hatching_chick: Setup Installation
+# :hatching_chick: How to Install Unlimited Adventures?
 
-So you've just purchased Unlimited Adventures? Yeehaw! I know that you can't wait to use it, so let's get straight to the point!
+Just got Unlimited Adventures? Awesome! Let’s get you up and running in no time!
 :::warning
-If you're already using the setup, please refer to [Updating](updating)
+If Unlimited Adventures is already set up on your server, check out the [Updating](/docs/unlimited-adventures/updating/) guide.
 :::
 
 #### Step 1
