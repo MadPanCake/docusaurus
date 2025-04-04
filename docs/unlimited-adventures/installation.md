@@ -21,7 +21,7 @@ If Unlimited Adventures is already set up on your server, check out the [Updatin
 ⬇️ Download & install required plugins: 
 - [TAB](https://github.com/NEZNAMY/TAB/releases/download/4.1.8/TAB.v4.1.8.jar)
 - [Citizens](https://ci.citizensnpcs.co/job/Citizens2/3580/artifact/dist/target/Citizens-2.0.35-b3580.jar)
-- [Model Engine](https://mythiccraft.io/index.php?pages/official-modelengine4-download/&download=free&f=4.0.7)
+- [Model Engine](https://mythiccraft.io/downloads/modelengine4/free/ModelEngine-4.0.8.jar)
 - [Mythic Mobs](https://www.mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.7.2.jar)
 
 #### Step 3
