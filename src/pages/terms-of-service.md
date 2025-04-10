@@ -18,3 +18,7 @@ Treat others the way you’d want to be treated, and everything will be just fin
 - You can request a refund for Unlimited Adventures within 30 days of purchase.
 - Violating our Terms of Service or acting with malicious intent may impact your eligibility for a refund.
 - Refund requests are usually processed within 7 days.
+
+## ⚠️ Discord Account Required
+
+To use Unlimited Adventures, you’ll need an active Discord account. Our licensing system is connected to your Discord ID, which means your access is tied to your account. If you lose access to your Discord or are banned, we won’t be able to recover your license or transfer it to a new account—so please keep your Discord account safe and in good standing.
