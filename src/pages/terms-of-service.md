@@ -2,7 +2,7 @@
 title: Terms of Service
 ---
 
-# Ender Nerds's Terms of Service
+# Ender Nerds' Terms of Service
 Treat others the way you’d want to be treated, and everything will be just fine! ❤️
 
 ## :bell: Please be civil and professional
