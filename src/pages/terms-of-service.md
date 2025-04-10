@@ -21,4 +21,4 @@ Treat others the way you’d want to be treated, and everything will be just fin
 
 ## ⚠️ Discord Account Required
 
-To use Unlimited Adventures, you’ll need an active Discord account. Our licensing system is connected to your Discord ID, which means your access is tied to your account. If you lose access to your Discord or are banned, we won’t be able to recover your license or transfer it to a new account—so please keep your Discord account safe and in good standing.
+You need an active Discord account to use Unlimited Adventures. Your access is tied to your Discord ID, so if you lose access or get banned, we can't recover or transfer your license. Keep your Discord account safe!
