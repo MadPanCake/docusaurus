@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: 'Updating'
+title: '⬇️ Updating'
 ---
 
 
@@ -15,11 +15,12 @@ import TabItem from '@theme/TabItem';
 If you're already using the setup, but would like to install the update, you can easily do it!
 
 :::warning[Don't skip versions!]
-You must update sequentially! For example, you can't jump directly from 2.6 to 2.8. If you're on 2.6, first update to 2.7, complete all the steps, then move to 2.8, 2.9, and so on until you reach the latest version.
+You must update sequentially! For example, you cannot jump directly from 2.8 to 2.9\
+You need to go in order, example: 2.8.5 ➡️ 2.8.6 ➡️ 2.8.7 ➡️ 2.9
 :::
 
 :::danger[Backup first!]
-Always create a backup of your files before making any changes or updates. Better safe than sorry!
+Make sure to back up your files before making any changes or updates—it's always better to be safe than sorry!
 :::
 
 
@@ -27,16 +28,76 @@ Always create a backup of your files before making any changes or updates. Bette
 
 <Tabs>
 
-    <TabItem value="Other versions" label="Other versions">
+
+
+
+
+
+  <TabItem value="Other versions" label="Other versions">
 
 #### Step 1
 :red_circle: Stop your server.
 
 #### Step 2
-💾 Copy all contents of `Update Files/` folder to your main server folder.\
+💾 Copy all contents of 📁`Update Files/` folder to your main server folder.\
 (Click "Change files in the destination")
 
   </TabItem>
+
+
+
+
+
+  <TabItem value="2.9.1" label="Update 2.9.1">
+
+#### Step 1
+:red_circle: Stop your server.
+
+#### Step 2
+❌ Remove folder: 📁`world/datapacks/`
+
+#### Step 3
+❌ Remove plugins:
+- `BlueSlimeCore.jar`
+- `Citizens.jar`
+- `CombatLogX.jar`
+- `ConsoleSpamFix.jar`
+- `ModelEngine.jar`
+- `MythicMobs.jar`
+- `PacketEvents.jar`
+- `TAB.jar`
+- `TChat.jar`
+
+#### Step 4
+❌ Remove folders:
+- 📁 `plugins/BlueSlimeCore/`
+- 📁 `plugins/CombatLogX/`
+- 📁 `plugins/ConsoleSpamFix/`
+- 📁 `plugins/TChat/`
+
+#### Step 5
+⬇️ Update to [1.21.4 Paper.jar](https://api.papermc.io/v2/projects/paper/versions/1.21.4/builds/227/downloads/paper-1.21.4-227.jar)
+
+#### Step 6
+⬇️ Update plugins:
+- Update [TAB](https://github.com/NEZNAMY/TAB/releases/download/5.2.0/TAB.v5.2.0.jar)
+- Update [Citizens](https://ci.citizensnpcs.co/view/Citizens/job/Citizens2/3727/artifact/dist/target/Citizens-2.0.37-b3727.jar)
+- Update [Model Engine](https://mythiccraft.io/downloads/modelengine4/free/ModelEngine-4.0.8.jar)
+- Update [Mythic Mobs](https://mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.8.2.jar)
+
+
+#### Step 7
+💾 Copy all contents of 📁`Update Files/` folder to your main server folder.\
+(Click "Change files in the destination")
+
+  </TabItem>
+
+
+
+
+
+
+
 
 
   <TabItem value="2.8" label="Update 2.8">
@@ -46,12 +107,12 @@ Always create a backup of your files before making any changes or updates. Bette
 
 #### Step 2
 ❌ Remove folders:
-- `unlimited_adventures/CustomItems/`
-- `unlimited_adventures/Ambients/`
-- `plugins/ChatManager`
-- `plugins/FastAsyncWorldEdit`
-- `plugins/NexEngine`
-- `plugins/ExcellentEnchants`
+- 📁 `unlimited_adventures/CustomItems/`
+- 📁 `unlimited_adventures/Ambients/`
+- 📁 `plugins/ChatManager`
+- 📁 `plugins/FastAsyncWorldEdit`
+- 📁 `plugins/NexEngine`
+- 📁 `plugins/ExcellentEnchants`
 
 #### Step 3
 ❌ Remove plugins .jar files:
@@ -81,12 +142,20 @@ Always create a backup of your files before making any changes or updates. Bette
 
 
 #### Step 6
-💾 Copy all contents of `Update Files` to your main server folder.\
+💾 Copy all contents of 📁`Update Files/` to your main server folder.\
 (Click "Change files in the destination")
 
 
 
   </TabItem>
+
+
+
+
+
+
+
+
   <TabItem value="2.6.1" label="Update 2.6.1">
 
 #### Step 1
@@ -94,8 +163,8 @@ Always create a backup of your files before making any changes or updates. Bette
 
 #### Step 2
 ❌ Remove folders:
-- `spawn`
-- `plugins/CommandPanels/panels`
+- 📁 `spawn`
+- 📁 `plugins/CommandPanels/panels`
 
 #### Step 3
 ❌ Remove files:
@@ -111,7 +180,7 @@ Always create a backup of your files before making any changes or updates. Bette
 
 
 #### Step 6
-💾 Copy all contents of `Update Files` to your main server folder.\
+💾 Copy all contents of 📁`Update Files/` to your main server folder.\
 (Click "Change files in the destination")
 
 
@@ -119,5 +188,5 @@ Always create a backup of your files before making any changes or updates. Bette
 
 </Tabs>
 
-:white_check_mark: Done! You can enjoy the latest version of Unlimited Adventures!
+#### :white_check_mark: Done! You can enjoy the latest version of Unlimited Adventures!
 

@@ -22,13 +22,15 @@ Scoreboard & Tablist are managed by the TAB plugin. In order to configure these 
 ### :pen: GUI Menus
 You can edit all menus in `plugins/CommandPanels/panels/` folder.
 
-### :earth_americas:  Pre-Generating the World
+### :earth_americas:  How to move the Spawn?
 
-We suggest you to pre-generate your server's world.
-In order to do that, you can use a plugin like [Chunky](https://dev.bukkit.org/projects/chunky-pregenerator/files)\
-Pre-generating your world can improve the performance of your server.\
-We recommend a world size of 5,000 x 5,000 or 10,000 x 10,000.
-
+In order to move the spawn, you need to:
+- Move the spawn location with `/setspawn`
+- Move the NPC's with `/npc select` and then `/npc movehere`
+- Move the holograms with `/dh movehere name`
+- Move the Wilderness Portal with `/rg redefine wild_tp`
+- Optionally: Move the bounce pad with `/rg redefine jump_pad`
+- Optionally: Move the Sculk Portal by simply placing it in the new place using Portal Stone item.
 
 
 

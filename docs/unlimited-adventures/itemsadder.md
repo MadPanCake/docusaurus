@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: 'Items Adder'
+title: '🖼️ Items Adder'
 ---
 
 import ReactPlayer from 'react-player'

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 9
-title: 'Branding'
+title: '⭐ Branding'
 ---
 
 import img1 from './assets/title_bar.png';

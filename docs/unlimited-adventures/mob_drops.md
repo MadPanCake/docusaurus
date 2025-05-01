@@ -7,7 +7,16 @@ title: 'Mob Drops'
 
 Some of the naturally spawning mobs have a chance to drop accessory items on death.
 
-### Drops list:
+### Mini Bosses
+
+Mini-bosses spawn in the Wilderness and their main purpose is to allow players to drop keys to the Classic Dungeons.
+| Boss | Drops |
+| - | - |
+| Skeleton Chieftain  | Bone Necklace, Cloak of Wrath (tier 3 only), Skeleton Key |
+| Nosferatu | Gold Tooth, Blood Vial (tier 3 only), Dracula Key |
+| Desert Outcast | Sunstone Ring, Zephyr Veil (tier 3 only), Desert Key |
+
+### Mobs
 | Mob | Drops |
 | - | - |
 | Zombie | Shackle, Zombie Brain |
@@ -31,9 +40,7 @@ Some of the naturally spawning mobs have a chance to drop accessory items on dea
 | Ravager | Horseshoe |
 | Wither | Wither Crown |
 | Ender Dragon | 5x Dragonscales, Ender Gauntlet |
-| Mini-Boss: Skeleton Chieftain  | Bone Necklace, Cloak of Wrath (tier 3 only), Skeleton Key |
-| Mini-Boss: Nosferatu | Gold Tooth, Blood Vial (tier 3 only), Dracula Key |
-| Mini-Boss: Desert Outcast | Sunstone Ring, Zephyr Veil (tier 3 only), Desert Key |
+
 
 ### How to edit item drop rates?
 
