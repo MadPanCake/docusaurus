@@ -4,7 +4,7 @@ title: '💡 Installation'
 ---
 
 import ReactPlayer from 'react-player'
-import video from './assets/setup_installation_2.mov';
+
 
 # :hatching_chick: How to Install Unlimited Adventures?
 
@@ -31,6 +31,6 @@ Put the plugins into the 📁`plugins/` folder.
 #### ✅ Done! You can enjoy the latest version of Unlimited Adventures!
 
 ## Video Tutorial
-<ReactPlayer playing controls url={video} />
+<ReactPlayer playing controls url="https://youtu.be/ITlXNW5nSh4" />
 
 

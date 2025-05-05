@@ -4,7 +4,6 @@ title: 'Resource Pack'
 ---
 
 import ReactPlayer from 'react-player'
-import video from './assets/resource_pack.mov';
 
 import resource_pack_zip from './assets/resource-pack-zip.jpg';
 
@@ -42,7 +41,7 @@ Copy the link and paste it in your browser.
 This above link is just an example, download the resource pack using a link from your `server.properties` file!
 :::
 
-<ReactPlayer playing controls url={video} />
+<ReactPlayer playing controls url="https://youtu.be/c6xhHgsXd3Y" />
 
 
 <br></br>

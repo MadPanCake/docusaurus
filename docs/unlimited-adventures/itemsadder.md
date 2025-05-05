@@ -4,7 +4,6 @@ title: '🖼️ Items Adder'
 ---
 
 import ReactPlayer from 'react-player'
-import video from './assets/itemsadder_installation.mp4';
 
 
 # 🖼️ How to make Unlimited Adventures work with ItemsAdder
@@ -42,7 +41,7 @@ If you're installing ItemsAdder for the first time, please refer to its [guide](
 :::
 
 
-<ReactPlayer playing controls url={video} />
+<ReactPlayer playing controls url="https://youtu.be/2nsQDgKO4oo"/>
 
 
 

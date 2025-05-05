@@ -4,7 +4,6 @@ title: '🖼️ Oraxen'
 ---
 
 import ReactPlayer from 'react-player'
-import video from './assets/oraxen_installation.mp4';
 
 
 # 🖼️ How to make Unlimited Adventures work with Oraxen
@@ -32,7 +31,7 @@ Don't know how to find your resource pack? Refer to [Resource Pack](resource-pac
 Done! Now start your server and enjoy Unlimited Adventures and Oraxen working together :heart:
 
 
-<ReactPlayer playing controls url={video} />
+<ReactPlayer playing controls url="https://youtu.be/NiHsrvgD544"/>
 
 
 
