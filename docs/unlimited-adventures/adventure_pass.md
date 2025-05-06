@@ -15,7 +15,7 @@ This guide aims to make the usage of this solution as easy as possible.
 
 ### Where is the config?
 You can find the Adventure Pass config file in:
-`unlimited_adventures/AdventurePass`
+📁`unlimited_adventures/AdventurePass`
 
 ### How to start/reset the season?
 

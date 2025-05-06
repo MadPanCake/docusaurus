@@ -17,6 +17,7 @@ For example:\
 
 ### :golf: How to get custom items?
 
-> Execute `/getitems` to open a menu with all custom items.
+> Execute `/getitems` to open a menu with all custom items.\
+> Execute `/giveitem <name> <player> <amount>` to give a specific custom item to a player.
 
 

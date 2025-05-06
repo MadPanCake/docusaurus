@@ -17,4 +17,4 @@ Default crates:
 
 ### How to edit crates?
 
-You can edit crates in `plugins/CrazyCrates/crates` folder.
+You can edit crates in 📁`plugins/CrazyCrates/crates` folder.

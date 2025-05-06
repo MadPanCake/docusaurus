@@ -29,8 +29,7 @@ This guide will explain Rank Textures.
 
 ### How to edit the rank texture?
 
-In order to edit the rank texture, you need to go into the server's resource pack.\
-```assets/minecraft/textures/custom/icons```\
+In order to edit the rank texture, you need to go into the server's resource pack.: 📁`assets/minecraft/textures/custom/icons`\
 This directory contains various server icons, let's say that you'd like to edit the texture of the ultra rank, in that case, you just need to edit the `ultra_icon` file.\
 If you have edited the file, just save it and it should be working.
 
@@ -45,7 +44,7 @@ It's 5x new rank prefixes for $8.90. Contact me on [Discord](https://discord.gg/
 
 <img src={img4} alt="Image Description" width="270" height="36"/>
 
-Go to `plugins/TAB/groups.yml` and change this:
+Go to 📁`plugins/TAB/groups.yml` and change this:
 
 ```
 Default:

@@ -37,7 +37,8 @@ If you for some reason want to delete the logo altogether, please go to: `assets
 
 ### MOTD
 
-Server description is handled by our custom-made Adventure Core. It can be modified in the `unlimited_adventures/AdventureCore/motd` (**NOT** in the `plugins/` folder!)
+Server description is handled by our custom-made Adventure Core. It can be modified in the\
+📁`unlimited_adventures/AdventureCore/motd` (**NOT** in the 📁`plugins/` folder!)
 
 ```
 motd_line:

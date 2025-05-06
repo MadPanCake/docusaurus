@@ -62,11 +62,12 @@ Adding new sounds is very straightforward. Simply add the sound to the resource 
 - Non-Directional Sound ('plays in your head'): Make it STEREO.
 
 #### ⬆️ Now we need to upload your sound into the [resource pack](resource-pack).
-- Go to `assets/minecraft/sounds/custom/`
-- Choose one of the folders, or create your own. Your final destination could be, for example: `assets/minecraft/sounds/custom/effect/`
+- Go to 📁`assets/minecraft/sounds/custom/`
+- Choose one of the folders, or create your own. Your final destination could be, for example:\
+📁`assets/minecraft/sounds/custom/effect/`
 
 #### ⚙ Add your sound to the `sounds.json` file.
-- Go to `assets/minecraft` folder and open the `sounds.json` file.
+- Go to 📁`assets/minecraft` folder and open the `sounds.json` file.
 - Add your sound to the list. Let's assume your sound name is `hello.ogg`
 
 ```

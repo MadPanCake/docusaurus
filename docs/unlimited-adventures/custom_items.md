@@ -92,10 +92,10 @@ But the most important things are down below, the `health` and `regeneration` st
 
 #### Upload your new texture to the server resource pack
 1. First, you have to add the texture to your resource pack. You need to [download](resource-pack) it on your computer so you can update it.
-2. Put your texture in the `assets/minecraft/textures/custom/items/` folder.
+2. Put your texture in the 📁`assets/minecraft/textures/custom/items/` folder.
 3. Now you need to create a model for your texture, no matter whether it's 3D or not, this model allows us to create a brand new texture, instead of having to sacrifice existing Minecraft items:
 
-Go to `assets/minecraft/models/custom/items/`. Create a new `.json` file or just copy the `amethyst_axe.json ` and rename it to your items name.
+Go to 📁`assets/minecraft/models/custom/items/`. Create a new `.json` file or just copy the `amethyst_axe.json ` and rename it to your items name.
 Edit its content:
 ```
 {
