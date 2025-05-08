@@ -9,7 +9,7 @@ title: 'Quests'
 
 Quests in our setup are handled by the powerful **BetonQuest** plugin.
 
-All quests are contained in the `plugins/betonquest/quests`
+All quests are contained in the 📁`plugins/betonquest/quests`
 
 :white_small_square:`objectives.yml` file contains the objectives of the quests,\
 :white_small_square:`events.yml` contains events that we're using to handle quests, like giving the objectives, rewards, finishing the quests, etc.\
