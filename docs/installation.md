@@ -10,7 +10,7 @@ import ReactPlayer from 'react-player'
 
 Just got Unlimited Adventures? Awesome! Let’s get you up and running in no time!
 :::warning
-If Unlimited Adventures is already set up on your server, check out the ⬇️[Updating guide](/docs/unlimited-adventures/updating/)
+If Unlimited Adventures is already set up on your server, check out the ⬇️[Updating guide](updating/)
 :::
 
 #### Step 1

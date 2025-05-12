@@ -13,7 +13,7 @@ This guide has been made to provide quick help in such situations!
 
 ### ⚠️ Firstly - Make sure your server is properly installed
 
-1. Make sure you have installed the setup according to the 📗 [**installation instructions**](https://endernerds.netlify.app/docs/unlimited-adventures/installation)
+1. Make sure you have installed the setup according to the 📗 [**installation instructions**](https://docs.endernerds.com/installation)
 2. Make sure you are on 📄 [**Paper 1.21.4**](https://api.papermc.io/v2/projects/paper/versions/1.21.4/builds/227/downloads/paper-1.21.4-227.jar)
 3. Make sure you are using the 🟢 [**latest setup version**](https://builtbybit.com/resources/unlimited-adventures-survival-setup.27917/updates)
 4. Make sure you are using ☕ [**Java 21**](https://www.oracle.com/pl/java/technologies/downloads/#java21)
@@ -36,7 +36,7 @@ There are a few possible reasons why the texture pack doesn't work on your serve
 - 'dungeons'
 - 'world'
 
-2. Make sure your `unlimited_adventures/Dungeons/FloorData` folder is not empty. If it's empty, you have to recover the files from a clean setup installation.
+2. Make sure your 📁`unlimited_adventures/Dungeons/FloorData` folder is not empty. If it's empty, you have to recover the files from a clean setup installation.
 
 #### ✨ Wilderness Teleport doesn't work
 

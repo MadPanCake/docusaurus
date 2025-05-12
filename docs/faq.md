@@ -63,7 +63,7 @@ When joining on Bedrock, use port `25567`
 
 #### 🎨 Does Unlimited Adventures work with Oraxen or Items Adder?
 > Oraxen and Items Adder are **not required** for the setup to work.\
-> However, if you want, you can still easily [merge our resource pack](/docs/unlimited-adventures/oraxen) with Oraxen or Items Adder.
+> However, if you want, you can still easily [merge our resource pack](/oraxen) with Oraxen or Items Adder.
 
 ## :wrench: Technical
 
