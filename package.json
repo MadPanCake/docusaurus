@@ -1,5 +1,5 @@
 {
-  "name": "my-website",
+  "name": "docusaurus",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,23 +11,23 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "dev": "docusaurus start"
   },
   "dependencies": {
     "@cmfcmf/docusaurus-search-local": "^1.2.0",
-    "@docusaurus/core": "3.5.2",
-    "@docusaurus/preset-classic": "3.5.2",
-    "@docusaurus/theme-search-algolia": "^3.7.0",
+    "@docusaurus/core": "3.1.1",
+    "@docusaurus/preset-classic": "3.1.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-player": "^2.16.0"
+    "react-player": "latest"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.5.2",
-    "@docusaurus/types": "3.5.2"
+    "@docusaurus/module-type-aliases": "3.1.1",
+    "@docusaurus/types": "3.1.1"
   },
   "browserslist": {
     "production": [
@@ -43,5 +43,6 @@
   },
   "engines": {
     "node": ">=18.0"
-  }
+  },
+  "description": "Docusaurus example project"
 }
