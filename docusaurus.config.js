@@ -85,12 +85,13 @@ const config = {
 
   plugins: [
     [
-      '@cmfcmf/docusaurus-search-local',
+      'docusaurus-plugin-search-local',
       {
-        indexDocs: true,    // ← index your docs folder
-        indexBlog: false,   // ← skip blog posts
-        indexPages: false,  // ← skip any standalone pages
-        // That’s it—no other options
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: '/',
+        docsDir: 'docs',
       },
     ],
   ],
