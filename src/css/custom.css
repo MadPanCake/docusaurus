@@ -4,7 +4,7 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* 🌱 Theme variables */
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -17,7 +17,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -29,45 +28,134 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* 🎯 Layout wrapper */
+#__docusaurus .main-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
 
+/* 🧱 Sidebar + content wrapper */
+#__docusaurus .main-wrapper > div {
+  display: flex;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 60px;
+}
 
+/* 🗂️ Sidebar container */
+.theme-doc-sidebar-container {
+  width: 280px !important;
+  max-width: 280px !important;
+  min-width: 280px !important;
+  flex-shrink: 0;
+  padding-right: 1rem;
+}
 
+/* 📝 Sidebar link padding */
+.theme-doc-sidebar-menu .menu__link {
+  padding-right: 1rem;
+}
 
+/* 📖 Main content shell */
+.theme-doc-main-container {
+  flex: 1;
+  max-width: 1200px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
+/* 🚀 Make the docs container itself wider */
+.theme-doc-main-container .container {
+  width: 100% !important;
+  max-width: 1200px !important;
+}
 
+/* 📚 Markdown inside content */
+.theme-doc-markdown {
+  margin: 0 auto;
+  max-width: none !important;
+}
 
+/* 🔧 Navbar wrapper */
+.navbar__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 60px;
+  position: relative;
+}
 
-/*
+/* 🚩 Logo on left */
+.navbar__brand {
+  flex: 0 0 auto;
+}
 
-.sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
+/* 🎯 Centered nav links */
+.navbar__items--start {
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 260px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  overflow-y: auto;
-}
-
-.main-wrapper {
-  margin-left: 260px;
-}
-
-*/
-
-
-
-
-
-
-
-.footer {
-  text-align: center;
-}
-
-/* Optional: Center the individual items in the footer, if needed */
-.footer__links {
   display: flex;
-  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* 📎 Right-side items */
+.navbar__items--end {
+  flex: 0 0 auto;
+}
+
+/* 🧭 Navbar background */
+.navbar {
+  background-color: #121212;
+  border-bottom: 1px solid #333;
+}
+
+
+
+/* ─── Push sidebar left by 20% ─── */
+.theme-doc-sidebar-container {
+  position: relative;
+  transform: translateX(-20%) !important;
+}
+
+
+
+/* ─── Style the closed search pill ─── */
+.navbar__search {
+  display: flex;
+  align-items: center;
+  width: 320px;                              /* match expanded width */
+  max-width: none;
+  padding: 0.35rem 0.75rem;                  /* give it some height */
+  border: 2px solid var(--ifm-color-primary) !important;
+  border-radius: 12px !important;
+  background-color: var(--ifm-color-primary-lightest) !important;
+  cursor: text;                              /* indicate you can type */
+  transition: background-color 0.2s;
+}
+
+/* The magnifying glass icon */
+.navbar__search .navbar__search-icon {
+  color: var(--ifm-color-primary-dark) !important;
+  margin-right: 0.5rem;
+}
+
+/* Placeholder text before input shows */
+.navbar__search .navbar__search-input {
+  opacity: 0.7;
+  color: var(--ifm-color-text) !important;
+}
+
+/* On hover, slightly darken */
+.navbar__search:hover {
+  background-color: var(--ifm-color-primary-light) !important;
+}
+
+/* When focused/open, ensure the styling persists */
+.navbar__search:focus-within {
+  background-color: var(--ifm-color-background) !important;
+  border-color: var(--ifm-color-primary-dark) !important;
 }
