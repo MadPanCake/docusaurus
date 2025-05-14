@@ -62,7 +62,7 @@ const config = {
           { href: 'https://discord.gg/wdBFC7Hc6X', label: 'Discord', position: 'left' },
 
           // Right-aligned item
-          { href: 'https://docs.endernerds.kr/', label: 'Korean', position: 'right' },
+          { href: 'https://docs.endernerds.kr/', label: '한국어 문서', position: 'right' },
         ],
       },
       footer: {
