@@ -90,5 +90,8 @@ scoreboard:
       - '  {%color_server_name_accent%}play.unlimitedadventures.com'
 ```
 
+### Discord Link
 
-
+Discord link can be found on the server as an auto-message and in the `/links` menu.
+- You can edit all auto-messages in `unlimited_adventures/Chat/auto-broadcast.yml`
+- You can edit the `/links` menu in `plugins/CommandPanels/panels/utility/links.yml`
