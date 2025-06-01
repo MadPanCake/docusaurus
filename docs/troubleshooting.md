@@ -5,70 +5,95 @@ title: '🛠️ Troubleshooting'
 
 
 
-# 🔧 Solving common problems
+# ⚙️ Troubleshooting Guide
 
-We understand that sometimes working on your server doesn't go as intended and `stuff breaks`.\
-This guide has been made to provide quick help in such situations!
+Running into issues? This page will walk you through the most common problems and how to solve them.
 
+### ✅ First Things First: Is Your Server Set Up Correctly?
 
-### ⚠️ Firstly - Make sure your server is properly installed
+Before anything else, double-check these essentials:
+- 🧱 You followed the official [**installation instructions**](https://docs.endernerds.com/installation)
+- 🧾 You're running [**Paper 1.21.4**](https://api.papermc.io/v2/projects/paper/versions/1.21.4/builds/227/downloads/paper-1.21.4-227.jar) as your server jar
+- 🆕 You're using the latest version of the setup ([check on BuiltByBit](https://builtbybit.com/resources/unlimited-adventures-survival-setup.27917/updates))
+- ☕ You're running Java 21 ([download here](https://www.oracle.com/pl/java/technologies/downloads/#java21))
 
-1. Make sure you have installed the setup according to the 📗 [**installation instructions**](https://docs.endernerds.com/installation)
-2. Make sure you are on 📄 [**Paper 1.21.4**](https://api.papermc.io/v2/projects/paper/versions/1.21.4/builds/227/downloads/paper-1.21.4-227.jar)
-3. Make sure you are using the 🟢 [**latest setup version**](https://builtbybit.com/resources/unlimited-adventures-survival-setup.27917/updates)
-4. Make sure you are using ☕ [**Java 21**](https://www.oracle.com/pl/java/technologies/downloads/#java21)
+### ⚠️ Potentially Unsupported Features
+Some setups may cause unexpected behavior:
+- 🛑 Engines **other than Paper** (like Purpur) — while they may work, only Paper is officially supported.
+- ❌ **Unofficial Minecraft clients** — third-party launchers or custom clients can break functionality.
+- 🔄 **ViaVersion / ViaRewind / etc.** — allow unsupported versions to join, which may cause bugs or visual issues.
 
-### ⚠️ Potentially unsupported features
-
-- Engines other than Paper - while Purpur usually works, we can only guarantee compatibility with **Paper**. Do not report issues if you use another engine.
-- Weird, unofficial, third-party Minecraft clients - they might change how the game works in unexpected ways.
-- ViaVersion, ViaRewind, etc. - they let players join on unsupported Minecraft versions which can lead to inferior experience.
-
-### ⚠️ Check your Minecraft Client
-
-1. Make sure you are on **Minecraft 1.21.4** - other versions are not guaranteed to work.
-2. Make sure you are on **clean, vanilla Minecraft** (official launcher, no mods, no weird launchers) - modded Minecraft is not guaranteed to work.
+### ⚠️ Check Your Minecraft Client
+- ✅ Use **Minecraft 1.21.4** — other versions aren’t guaranteed to work.
+- 🎮 Use the **official launcher**, and avoid mods or custom launchers - those are not guaranteed to work.
 
 
-#### 🎨 Texture pack doesn't work?
 
-There are a few possible reasons why the texture pack doesn't work on your server.
+-------
 
-1. Have you installed Oraxen or ItemsAdder? If yes, then you have to merge the resource pack. Use the respective guides: [Oraxen](oraxen) [ItemsAdder](itemsadder)
-2. Check if `force unicode` setting is disabled in your client language settings.
-3. Have you made any modifications to the resource pack or models? Your changes can easily break stuff, please revert to the default files and test your changes one by one to find out what causes issues.
-4. If you are using Oraxen or ItemsAdder, you have to remove the `modelengine` folder from your resource pack. Did you do it?
-5. Do you have problems with models? Try to swap your `ModelEngine` plugin folder and resource pack files with original files from a clean setup installation.
+
+
+## 🎨 Texture Pack Doesn’t Work?
+
+A few things could be causing this:
+
+- 🧩 **Using ItemsAdder or Oraxen?**\
+You’ll need to merge the resource pack properly. Use the official guides:\
+→ [ItemsAdder Guide](itemsadder)
+→ [Oraxen Guide](oraxen)\
+- 🈲 **Check the “Force Unicode Font” setting** in your client (disable it).
+- 🛠️ **Modified the resource pack or models?**
+Revert to the default files, then reapply changes one by one to find what broke.
+- 📁 **Using Oraxen/ItemsAdder?**
+Remove the 📁`modelengine/` folder from the resource pack.
+- 🔁 **Broken models?**
+Replace your ModelEngine plugin folder and resource pack with clean files from the original setup.
+
+-----
 
 #### ☠️ Can't access Dungeons or Spawn?
 
-1. Make sure you have all the world folders available in the root directory of your server.
-- 'spawn'
-- 'dungeons'
-- 'world'
+Make sure these folders exist in your server’s root directory:
+- `spawn`
+- `dungeons`
+- `world`
 
-2. Make sure your 📁`unlimited_adventures/Dungeons/FloorData` folder is not empty. If it's empty, you have to recover the files from a clean setup installation.
+Also check that:\
+📁 `plugins/unlimited_adventures/Dungeons/FloorData` is **not empty**.\
+If it is, restore it from a clean setup.
 
-#### ✨ Wilderness Teleport doesn't work
+---
 
-You have most likely removed the `wild_tp` region which indicates an area that teleports players to Wilderness.
+#### ✨ Wilderness Teleport doesn't work?
 
-#### ✨ I keep getting teleported back to spawn
+You've probably deleted the `wild_tp` region.\
+→ Recreate it to restore teleportation to the Wilderness.
 
-You have likely removed the `spawn` region from spawn either manually, or by removing the WorldGuard folder.
+---
 
-#### ✨ Random Teleport is slow
+#### ✨ Keep getting teleported back to spawn?
 
-Our Random Teleport in itself is completely instant - it doesn't introduce any lag or delay.
-But when you are performing a RTP, it might try to generate a new chunk for you. That's what causes the visible lag.\
-Easy solution to this problem is to pregenerate your map in a radius that's at least as big as your RTP range.\
-If you do this, you will get instantenous Random Teleporting on your server! ⭐
+The `spawn` world might be missing — possibly deleted manually or when removing the WorldGuard folder.\
+→ Recreate it or restore your WorldGuard data.
 
-#### 🪶 I see a feather above my head
+---
 
-Seeing feather above your head means the [Adventure Apparel](adventure_apparel) resource pack files have broken.\
-Try to revert any resource pack changes you did to fix the issue.
+#### 🐢 Random Teleport is slow
 
-#### 🧔🏽 NPC's have an unwanted text above their head
+The teleport itself is instant — lag comes from new chunk generation.
 
-Please restart your server.
+✅ Fix: Pre-generate your map in a radius equal to (or larger than) your RTP range.
+This ensures RTP is truly instantaneous ⭐
+
+---
+
+#### 🪶 Feather above your head?
+
+This means the [Adventure Apparel](adventure-apparel) resource pack is broken.\
+🔁 Revert any changes you made to the resource pack to fix the issue.
+
+---
+
+#### 🧔🏽 Default NPCs Have Weird Text Above Their Heads?
+
+🧼 Just restart your server — this will clear any unwanted NPC text overlays.\

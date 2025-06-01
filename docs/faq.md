@@ -72,9 +72,9 @@ When joining on Bedrock, use port `25567`
 > Setup and all of it's custom features can be translated to your own language.
 
 #### 🛠️ What are the hardware requirements?
-- A decently modern CPU (less than 5 years old) with a high single core performance (at least 4.0 GHZ)\
-- At least 8 GB of RAM.\
-- Additionally, it's great not to be on a shared hosting. Dedicated resources will give you stable performance.
+- 🧠 A modern **CPU** (preferably less than 5 years old) with strong single-core performance — **4.0 GHz or higher**.
+- 💾 At least **8 GB of RAM**.
+- 🖥️ **Dedicated hosting** is highly recommended — avoid shared hosting for stable performance and fewer surprises.
 
 #### 🛡️ What if I don't like the setup?
 > We will refund you. Yeah, seriously! We are 100% confident with the quality of Unlimited Adventures!\
