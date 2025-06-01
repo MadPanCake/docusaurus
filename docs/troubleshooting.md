@@ -18,6 +18,12 @@ This guide has been made to provide quick help in such situations!
 3. Make sure you are using the 🟢 [**latest setup version**](https://builtbybit.com/resources/unlimited-adventures-survival-setup.27917/updates)
 4. Make sure you are using ☕ [**Java 21**](https://www.oracle.com/pl/java/technologies/downloads/#java21)
 
+### ⚠️ Potentially unsupported features
+
+- Engines other than Paper - while Purpur usually works, we can only guarantee compatibility with **Paper**. Do not report issues if you use another engine.
+- Weird, unofficial, third-party Minecraft clients - they might change how the game works in unexpected ways.
+- ViaVersion, ViaRewind, etc. - they let players join on unsupported Minecraft versions which can lead to inferior experience.
+
 ### ⚠️ Check your Minecraft Client
 
 1. Make sure you are on **Minecraft 1.21.4** - other versions are not guaranteed to work.
