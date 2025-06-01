@@ -18,6 +18,11 @@ This guide has been made to provide quick help in such situations!
 3. Make sure you are using the 🟢 [**latest setup version**](https://builtbybit.com/resources/unlimited-adventures-survival-setup.27917/updates)
 4. Make sure you are using ☕ [**Java 21**](https://www.oracle.com/pl/java/technologies/downloads/#java21)
 
+### ⚠️ Check your Minecraft Client
+
+1. Make sure you are on **Minecraft 1.21.4** - other versions are not guaranteed to work.
+2. Make sure you are on **clean, vanilla Minecraft** (official launcher, no mods, no weird launchers) - modded Minecraft is not guaranteed to work.
+
 
 #### 🎨 Texture pack doesn't work?
 
