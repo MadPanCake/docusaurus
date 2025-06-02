@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: '🖼️ Items Adder'
+id: itemsadder
 ---
 
 import ReactPlayer from 'react-player'

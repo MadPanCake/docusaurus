@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: '💡 Installation'
+id: installation
 ---
 
 import ReactPlayer from 'react-player'

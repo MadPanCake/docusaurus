@@ -2,6 +2,7 @@
 sidebar_position: 7
 title: 'Resource Pack'
 slug: /resource-pack
+id: resource_pack
 ---
 
 import ReactPlayer from 'react-player'

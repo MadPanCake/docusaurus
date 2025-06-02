@@ -1,6 +1,7 @@
 ---
 sidebar_position: 12
-title: 'Premium Store'
+id: premium_store
+title: '🛒 Premium Store'
 ---
 
 import tebex1 from './assets/tebex_premium_currency_1.png';
@@ -9,51 +10,52 @@ import tebex2 from './assets/tebex_premium_currency_2.png';
 
 # :moneybag: Premium Store Setup
 
-Premium Store is one of our flagship features, and certainly one of the most original ones. That's why you might not be very familiar with how to use it.
-Don't worry though, it's actually super simple!
+The **Premium Store** is one of our standout features, designed to enhance your server’s economy and boost player engagement. It’s easy to set up, fully customizable, and comes ready with high-quality items out of the box.
 
-### How to get started with Premium Store?
+### 🚀 Getting Started
 
-Our Premium Store comes pre-configured, with items ready to sell.
-The only thing you have to do is to add the premium currency to your server's webstore.
+The Premium Store comes **pre-configured** with ready-to-sell items.\
+All you need to do is **add premium currency** to your webstore.
 
-#### How to add the Premium Currency Package to your webstore?
+----
 
-1. First, you have to add a new package to your webstore (I'm using Tebex as example).
-2. Next, you should configure a command to execute, when the package is purchased.
+#### 🛒 How to Add Premium Currency to Your Webstore
+Using Tebex as an example:
+1. Go to your webstore and create a new package.
+2. In the package settings, add the following command to be executed on purchase:
+```
+/premiumcurrency {username} add 1000
+```
+<img src={tebex1} alt="Image Description"/>
+<img src={tebex2} alt="Image Description"/>
 
-<img src={tebex1} alt="Image Description" width="824" height="204"/>
+4. Click **Create**, and you’re done!
 
-3. Insert the command: `/premiumcurrency {username} add 1000`
-
-<img src={tebex2} alt="Image Description" width="984" height="191"/>
-
-4. Click 'Create' and voila. It's done!
+-----
 
 
-
-
-### BONUS: Recommended Premium Currency packages
+### 💡 Recommended Premium Currency Packages
 
 We recommend you to use the following Premium Currency packages:
-| Amount of gems | Price |
+| Gems | Price |
 | - | - |
 | 1000 Gems | $9.99 |
 | 2500 Gems | $19.99 |
 | 6000 Gems | $44.99 |
 
-You can adjust the prices to prices to your audience, but keep these same proportions to ensure high conversion rates.
+You’re free to adjust prices for your audience, but we recommend keeping similar proportions for better conversion.
 
+-----
 
+### ✨ Giving Players Gems Manually
+Want to give a player some Gems? Just run one of these commands in-game:
+- `/premiumcurrency [player] add [amount]`
+- or the shorter version: `/gems [player] add [amount]`
 
-### :money_with_wings: How to add Premium Currency to someone's account?
+-----
 
-It's super simple! You just have to type in this command:\
-```/premiumcurrency [player] add [amount]```\
-or, you can also use a shorter form:\
-```/gems [player] add [amount]```
+### 💎 Gems Placeholder
 
-### :gem: Premium Currency Placeholder
-
-A placeholder for Gems is available: `%valiant_premium_currency%`\
-It returns the amount of gems a player has.
+Need to display how many gems a player has?\
+Use this placeholder: `%valiant_premium_currency%`\
+It returns the exact number of Gems a player owns.

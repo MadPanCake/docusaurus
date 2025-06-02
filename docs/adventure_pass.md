@@ -1,6 +1,7 @@
 ---
 sidebar_position: 13
 title: '🎯 Adventure Pass'
+id: adventure_pass
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 title: '🖼️ Oraxen'
+id: oraxen
 ---
 
 import ReactPlayer from 'react-player'

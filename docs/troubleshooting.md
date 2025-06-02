@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+id: troubleshooting
 title: '🛠️ Troubleshooting'
 ---
 
@@ -39,17 +40,26 @@ A few things could be causing this:
 
 - 🧩 **Using ItemsAdder or Oraxen?**\
 You’ll need to merge the resource pack properly. Use the official guides:\
-→ [ItemsAdder Guide](itemsadder)
-→ [Oraxen Guide](oraxen)\
+→ [ItemsAdder Guide](itemsadder)\
+→ [Oraxen Guide](oraxen)
 - 🈲 **Check the “Force Unicode Font” setting** in your client (disable it).
-- 🛠️ **Modified the resource pack or models?**
+- 🛠️ **Modified the resource pack or models?**\
 Revert to the default files, then reapply changes one by one to find what broke.
-- 📁 **Using Oraxen/ItemsAdder?**
+- 📁 **Using Oraxen/ItemsAdder?**\
 Remove the 📁`modelengine/` folder from the resource pack.
-- 🔁 **Broken models?**
+- 🔁 **Broken models?**\
 Replace your ModelEngine plugin folder and resource pack with clean files from the original setup.
 
 -----
+
+#### 🔒 "Chat disabled due to missing profile public key. Please try reconnecting."
+
+Open your `server.properties` file (main server folder) and make sure that `enforce-secure-profile` is set to `false`.
+```
+enforce-secure-profile: false
+```
+
+---
 
 #### ☠️ Can't access Dungeons or Spawn?
 
@@ -89,11 +99,13 @@ This ensures RTP is truly instantaneous ⭐
 
 #### 🪶 Feather above your head?
 
-This means the [Adventure Apparel](adventure-apparel) resource pack is broken.\
-🔁 Revert any changes you made to the resource pack to fix the issue.
+This means the [Adventure Apparel](adventure_apparel) resource pack is broken or the Adventure Apparel is misconfigured.\
+🔁 Revert any changes you made to the resource pack and Adventure Apparel to fix the issue.
 
 ---
 
 #### 🧔🏽 Default NPCs Have Weird Text Above Their Heads?
 
-🧼 Just restart your server — this will clear any unwanted NPC text overlays.\
+🧼 Just restart your server — this will clear any unwanted NPC text overlays.
+
+---

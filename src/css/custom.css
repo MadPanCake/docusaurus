@@ -159,3 +159,17 @@
   background-color: var(--ifm-color-background) !important;
   border-color: var(--ifm-color-primary-dark) !important;
 }
+
+
+
+/* Mniejsze pozycje w sidebarze */
+.menu__link {
+  font-size: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+/* Zmniejsz odstęp między elementami listy */
+.menu__list-item {
+  margin: 3px 0;
+}

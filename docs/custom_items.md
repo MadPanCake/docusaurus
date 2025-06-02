@@ -1,5 +1,6 @@
 ---
 sidebar_position: 10
+id: custom_items
 title: 'Custom Items'
 ---
 
@@ -7,8 +8,8 @@ title: 'Custom Items'
 
 # 🪃 Custom Items
 
-Unlimited Adventures is equipped with a powerful, built-in custom items system.\
-This page will explain how to create new custom items, modify them and how to summon them.
+Unlimited Adventures includes a built-in, powerful custom items system — no extra plugins needed.\
+This guide will show you how to create, modify, summon, and texture your own custom items.
 
 :::tip[How to get custom items]
 You can access custom items menu by executing: `/getitems`\
