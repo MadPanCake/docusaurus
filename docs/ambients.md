@@ -16,15 +16,15 @@ It's a system which creates a realistic sound atmosphere based on your surroundi
 We are providing incredibly powerful configuration settings for the ambients.\
 Things ambient system can take into account when deciding what sounds should the player hear at the moment:
 - Biome,
-- Levels (Height - Y position),
-- Time of the day
-- Weather
+- Levels (Altitude - Y position) [possible ones: sky, surface, underground],
+- Time of the day [possible ones: morning, noon, evening, night]
+- Weather [possible ones: clear, rain, thunder]
 
 You can also adjust:
 - Volume,
 - Delay,
-- Amplitude of delay (a randomization of delay),
-- Sound overlapping (you can force sound to never play while other sounds are playing)
+- amplitude - Amplitude of delay (a randomization of delay),
+- prevent_stacking - Sound overlapping (you can force sound to never play while other sounds are playing)
 
 **Here's an example sound config:**
 ```
@@ -101,7 +101,7 @@ You can find the file in `unlimited_adventures/Ambients/sounds.yml`
 An example config:
 ```
 hello:
-    sound: hello
+    sound: custom.hello
     biomes:
     - plains
     delay: 20
@@ -110,7 +110,7 @@ hello:
 A more advanced example:
 ```
 hello:
-    sound: hello
+    sound: custom.hello
     biomes:
     - green biomes
     - high biomes
