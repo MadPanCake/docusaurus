@@ -23,4 +23,4 @@ Treat others the way you’d want to be treated, and everything will be just fin
 ## License System
 This product uses a lightweight [license system](/license-system) to verify legitimate purchases and prevent unauthorized use. No personal data is collected. If development is ever permanently discontinued, the license check will be removed to ensure continued access.
 
-⚠️ You need an active Discord account to use Unlimited Adventures. Your license is tied to your Discord ID. If you lose access to your account or get banned, we cannot recover or transfer your license. Please keep your Discord account safe.
+⚠️ You need an active Discord account to use Unlimited Adventures.
