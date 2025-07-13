@@ -150,8 +150,9 @@ dino_sword:
 
 
 
-## :pencil2: How to change crafting recipes?
-Edit the Forge Block recipes for custom items by going to: `unlimited_adventures/CustomItems/recipes.yml`
+## 📜 How to add/change crafting recipes?
+You can add your own workshop recipes or modify existing ones.\
+Config can be found in: `unlimited_adventures/CustomItems/recipes.yml`
 
 ```
 recipes:
@@ -164,10 +165,15 @@ recipes:
     - 3 of slimeball
 ```
 
-## :unlock: How to unlock a recipe?
-⚙️ **If you have enabled it in the config**, players will be required to unlock a recipe first, before they can forge an item.\
-In that case, you can unlock items for the players by executing:\
-`/forgeunlock [player name] [item name]`, for example: `/forgeunlock Simon adventure_backpack`
+## 🔓 How to unlock a Workshop Schematic?
+Players can unlock new schematics by finding them in the chests in Wilderness.
+
+Alternatively, you can also use commands:
+- 🔓 Unlock a recipe: `/workshopunlock [player name] [item name]`,\
+for example: `/workshopunlock simon catching_net`
+
+- 🔒 Lock a recipe: `/workshoplock [player name] [item name]`,\
+for example: `/workshoplock simon catching_net`
 
 
 

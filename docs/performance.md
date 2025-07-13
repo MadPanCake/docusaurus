@@ -28,6 +28,11 @@ If you're seeing stutters, lag, or other odd behavior during regular play, it co
 - - Usually a good hosting uses a **Ryzen 9** CPU, and will give you 2-4 guaranteed dedicated cores.
 - 💾 Make sure you’ve assigned at least **8GB RAM** to your server.
 
+#### ➡️ Recommended hardware:
+- 🧠 A **modern CPU** (preferably less than 5 years old) with strong single-core performance — **4.0 GHz or higher**.
+- 💾 At least **8 GB of RAM**.
+- 🖥️ **Dedicated hosting** is highly recommended — avoid shared hosting for stable performance and fewer surprises.
+
 ### 🧾 Reporting Issues with Unlimited Adventures
 To get help fast, head over to our Discord [**Help Forum**](https://discord.com/channels/1070661065182035988/1070662464615755796) and create a new post with the following info:
 - 📋 What exactly is happening and when?
