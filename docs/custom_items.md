@@ -1,6 +1,5 @@
 ---
 sidebar_position: 10
-id: custom_items
 title: 'Custom Items'
 ---
 
@@ -8,8 +7,8 @@ title: 'Custom Items'
 
 # 🪃 Custom Items
 
-Unlimited Adventures includes a built-in, powerful custom items system — no extra plugins needed.\
-This guide will show you how to create, modify, summon, and texture your own custom items.
+Unlimited Adventures is equipped with a powerful, built-in custom items system.\
+This page will explain how to create new custom items, modify them and how to summon them.
 
 :::tip[How to get custom items]
 You can access custom items menu by executing: `/getitems`\
@@ -92,7 +91,7 @@ But the most important things are down below, the `health` and `regeneration` st
 ## 🎨 Give your item a custom texture
 
 #### Upload your new texture to the server resource pack
-1. First, you have to add the texture to your resource pack. You need to [download](resource-pack) it on your computer so you can update it.
+1. First, you have to add the texture to your resource pack. You need to [download](resource_pack) it on your computer so you can update it.
 2. Put your texture in the 📁`assets/minecraft/textures/custom/items/` folder.
 3. Now you need to create a model for your texture, no matter whether it's 3D or not, this model allows us to create a brand new texture, instead of having to sacrifice existing Minecraft items:
 
@@ -150,9 +149,8 @@ dino_sword:
 
 
 
-## 📜 How to add/change crafting recipes?
-You can add your own workshop recipes or modify existing ones.\
-Config can be found in: `unlimited_adventures/CustomItems/recipes.yml`
+## :pencil2: How to change crafting recipes?
+Edit the Forge Block recipes for custom items by going to: `unlimited_adventures/CustomItems/recipes.yml`
 
 ```
 recipes:
@@ -165,15 +163,10 @@ recipes:
     - 3 of slimeball
 ```
 
-## 🔓 How to unlock a Workshop Schematic?
-Players can unlock new schematics by finding them in the chests in Wilderness.
-
-Alternatively, you can also use commands:
-- 🔓 Unlock a recipe: `/workshopunlock [player name] [item name]`,\
-for example: `/workshopunlock simon catching_net`
-
-- 🔒 Lock a recipe: `/workshoplock [player name] [item name]`,\
-for example: `/workshoplock simon catching_net`
+## :unlock: How to unlock a recipe?
+⚙️ **If you have enabled it in the config**, players will be required to unlock a recipe first, before they can forge an item.\
+In that case, you can unlock items for the players by executing:\
+`/forgeunlock [player name] [item name]`, for example: `/forgeunlock Simon adventure_backpack`
 
 
 

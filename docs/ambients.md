@@ -16,15 +16,15 @@ It's a system which creates a realistic sound atmosphere based on your surroundi
 We are providing incredibly powerful configuration settings for the ambients.\
 Things ambient system can take into account when deciding what sounds should the player hear at the moment:
 - Biome,
-- Levels (Altitude - Y position) [possible ones: sky, surface, underground],
-- Time of the day [possible ones: morning, noon, evening, night]
-- Weather [possible ones: clear, rain, thunder]
+- Levels (Height - Y position),
+- Time of the day
+- Weather
 
 You can also adjust:
 - Volume,
 - Delay,
-- amplitude - Amplitude of delay (a randomization of delay),
-- prevent_stacking - Sound overlapping (you can force sound to never play while other sounds are playing)
+- Amplitude of delay (a randomization of delay),
+- Sound overlapping (you can force sound to never play while other sounds are playing)
 
 **Here's an example sound config:**
 ```
@@ -61,7 +61,7 @@ Adding new sounds is very straightforward. Simply add the sound to the resource 
 - Directional Sound: Make it MONO.
 - Non-Directional Sound ('plays in your head'): Make it STEREO.
 
-#### ⬆️ Now we need to upload your sound into the [resource pack](resource-pack).
+#### ⬆️ Now we need to upload your sound into the [resource pack](resource_pack).
 - Go to 📁`assets/minecraft/sounds/custom/`
 - Choose one of the folders, or create your own. Your final destination could be, for example:\
 📁`assets/minecraft/sounds/custom/effect/`
@@ -101,7 +101,7 @@ You can find the file in `unlimited_adventures/Ambients/sounds.yml`
 An example config:
 ```
 hello:
-    sound: custom.hello
+    sound: hello
     biomes:
     - plains
     delay: 20
@@ -110,7 +110,7 @@ hello:
 A more advanced example:
 ```
 hello:
-    sound: custom.hello
+    sound: hello
     biomes:
     - green biomes
     - high biomes

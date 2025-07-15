@@ -1,7 +1,6 @@
 ---
 sidebar_position: 6
 title: '🖼️ Oraxen'
-id: oraxen
 ---
 
 import ReactPlayer from 'react-player'
@@ -24,7 +23,7 @@ It's actually a very simple process. Please refer to the text guide and use the 
 #### Step 4
 > Copy contents of Unlimited Adventures' resource pack (everything in 📁`Unlimited Adventures/assets/`)
 :::tip[Find your resource pack]
-Don't know how to find your resource pack? Refer to [Resource Pack](resource-pack)
+Don't know how to find your resource pack? Refer to [Resource Pack](resource_pack)
 :::
 #### Step 5
 > 💾 Paste the copied folder into 📁`plugins/Oraxen/pack/assets`

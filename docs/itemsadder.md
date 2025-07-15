@@ -1,7 +1,6 @@
 ---
 sidebar_position: 5
 title: '🖼️ Items Adder'
-id: itemsadder
 ---
 
 import ReactPlayer from 'react-player'
@@ -29,7 +28,7 @@ It's actually a very simple process. Please refer to the text guide and use the 
 > Put Unlimited Adventures' resource pack into 📁`plugins/ItemsAdder/contents`
 
 :::tip[Find your resource pack]
-Don't know how to find your resource pack? Refer to [Resource Pack](resource-pack)
+Don't know how to find your resource pack? Refer to [Resource Pack](resource_pack)
 :::
 
 #### Step 6
