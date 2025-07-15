@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: 'Resource Pack'
-slug: /resource-pack
+slug: /resource_pack
 id: resource_pack
 ---
 
