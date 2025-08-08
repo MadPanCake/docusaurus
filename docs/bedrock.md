@@ -33,3 +33,10 @@ Using multiple Bedrock resource packs at the same time may cause conflicts or un
 ```
 send-floodgate-data: true
 ```
+
+## ⚠️ Known Issues
+These features will not work on Bedrock due to Geyser limitations:
+- Clickable links in chat
+- Custom enchantments
+
+For a full list, please visit [Geyser's wiki](https://geysermc.org/wiki/geyser/current-limitations)
