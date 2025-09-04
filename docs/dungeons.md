@@ -7,11 +7,77 @@ title: '💀 Dungeons'
 
 # :skull: **Dungeons**
 
-Our very own, custom-developed Dungeons system. It features 3 themed dungeons with 3 floors each.\
-Dungeons are filled with monsters, ores and chests to loot. In order to progress to another floor, you have to find a Dungeon Key.\
-At the end of every dungeon there is a powerful boss that drops unique items.\
-Dungeon Key can be dropped from the Mini-Bosses found in the wilderness.
+> *“Beneath the earth lie forgotten realms… places where shadows breathe, monsters lurk, and treasures gleam for those bold enough to claim them. Many enter—few return.”*  
 
+In **Unlimited Adventures**, Dungeons are more than just rooms full of monsters—  
+they are **living trials** of wit, courage, and survival. Each one is crawling with :spider: enemies, laced with :boom: traps, and hiding 💰 rewards beyond imagination.  
+Only the bold will return alive.
+
+## 🔒 Locked Dungeons
+
+Ancient strongholds sealed by powers unknown. To enter, you must first claim a 🔑 **Dungeon Key**, earned by defeating rare **Mini Bosses** hidden across the Wilderness.
+
+### 👹 Mini Bosses
+- Skeleton Chieftain - Haunts all types of forests.
+- Nosferatu - lurks in the high mountain peaks. 
+- Desert Outcast - roams the burning sands.
+
+### 🏰 Locked Dungeon Realms
+Each Dungeon spans **three perilous floors**, with gates that only open once enough foes have been slain.
+
+**⛏ Abandoned Mining Site**  
+- Forgotten Tunnels  
+- Overgrown Mineshaft  
+- Forbidden Cavern *(Boss: Miner’s Wrath)*  
+
+**🦇 Dracula’s Manor**  
+- Haunted Cemetery  
+- Crypt  
+- Dracula’s Castle *(Boss: Lord Dracula)*  
+
+**🏺 Ancient Ruins**  
+- Desert Canyon  
+- Ancient City  
+- Pyramid *(Boss: Pharaoh)*
+
+
+## Wilderness Dungeons
+
+The **wildest test of adventure**—designed for explorers who crave more than mindless battle. Here, you’ll face :brain: riddles, :exclamation: traps, and :crossed_swords: foes in equal measure.
+
+Seek out shimmering portals deep in the Wilderness to uncover them… if you dare.  
+
+### 🕷 The Crawling Depths
+
+**Backstory**  
+> *“Long ago, settlers carved a home in a vast cave. They built shrines, grew crops among fungi, and children laughed in the dark.  
+> Then the ground split. **Spiders the size of wolves** poured out, dragging settlers into the abyss. Their homes remain untouched—tables still set, toys abandoned… and whispers of laughter still echo through the tunnels.”* 
+
+**The Dungeon**  
+The Crawling Depths spans **eight massive, procedurally generated chambers**, each steeped in danger and mystery:
+- 🍄 Fungal Cavern  
+- 🌊 Flooded Catacombs  
+- 🍄 Fungal Storage  
+- 📚 Labyrinthine Archive  
+- 🕸 Silken Bridge  
+- 🏴‍☠️ Bandit Camp  
+- 🏚 Abandoned Village  
+- 👑 Queen’s Lair
+
+### Features
+- :sparkles: Entrance lies **underground, below Y:0**.  
+- :spider: Four unique spider foes—including eggs that hatch if disturbed.  
+- :scroll: Each room has its own **story, ambient sounds, and atmosphere**.
+- 🧩 Devious **riddles** to solve, :boom: **traps** to survive, and ⚔️ **challenges** to overcome.  
+- 🎁 Loot hidden in pots, barrels, and treasure chests.  
+
+
+-----
+
+
+# For Admins
+
+## Locked Dungeons
 
 #### :computer: Commands
 

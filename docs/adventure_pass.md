@@ -24,10 +24,9 @@ If you'd like to reset the current season (all players' progress, levels, XP and
 `/adventurepass newseason`
 
 
-### How to add Adventure Pass XP to a player?
+### How to level up Adventure Pass?
 
-You can easily add Adventure Pass Experience to a player by using the `/adventurepass givexp` command, example:\
-`/adventurepass givexp [player] [amount]`
+You can level up your Adventure Pass by leveling up your Guilds reputation. Each guild level = 1 Adventure Pass level.
 
 
 
@@ -70,7 +69,7 @@ You can use commands as rewards, by doing as following:\
 
 
 
-## 15 Placeholders available:
+## 4 Placeholders available:
 
 | Placeholder | Description |
 | - | - |
@@ -78,14 +77,3 @@ You can use commands as rewards, by doing as following:\
 | `%adventurepass_premium%` | This placeholder returns "true", if the player has the Premium Pass. |
 | `%adventurepass_page%` | This placeholder returns the Adventure Pass Menu page that the player is on (the page that contains his current Adventure Pass level) |
 | `%adventurepass_rewardavailable_LEVEL%` | This placeholder returns "true", if player has an available, unclaimed reward for the specified Adventure Pass level. |
-| `%adventurepass_dq_timeuntilreset%` | This placeholder returns the time until the Daily Quest resets. |
-| `%adventurepass_wq_timeuntilreset%` | This placeholder returns the time until the Weekly Quest resets. |
-| `%adventurepass_dq_timeuntilexpiration%` | This placeholder returns the time until the Daily Quest expires. |
-| `%adventurepass_wq_timeuntilexpiration%` | This placeholder returns the time until the Weekly Quest expires. |
-| `%adventurepass_dq_number%` | This placeholder returns the Daily Quest ID number. (used for display purposes in the CP menu) |
-| `%adventurepass_wq_number%` | This placeholder returns the Weekly Quest ID number. (used for display purposes in the CP menu) |
-| `%adventurepass_level_progress_percent%` | This placeholder returns the progress towards the next Adventure Pass level in percentage. |
-| `%adventurepass_level_progress_graphic%` | This placeholder returns the progress towards the next Adventure Pass level in the form of a colored progress bar. |
-| `%adventurepass_level%` | This placeholder returns the player's Adventure Pass level. |
-| `%adventurepass_xp%` |- This placeholder returns the player's Adventure Pass experience amount. |
-| `%adventurepass_xp_need%` | This placeholder returns the player's Adventure Pass experience amount needed to level up. |

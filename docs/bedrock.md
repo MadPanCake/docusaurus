@@ -22,6 +22,14 @@ Players can join your server from any device — whether it's **PC, Console, Mob
 Using multiple Bedrock resource packs at the same time may cause conflicts or unexpected behavior.
 :::
 
+## 🛠️ Maintaining Bedrock
+
+⚡ **Heads up!** Bedrock gets updated way more often than Java. That means for Bedrock players to join Java servers, the **Geyser plugin** always needs to stay **up-to-date**. 🔄
+
+👉 Sometimes you might have to update Geyser a few times in the same week – so don’t be surprised!
+
+⬇️ You can always grab the latest Geyser .jar straight from the [official page](https://geysermc.org/download/).
+
 
 ## 🔁 Velocity / BungeeCord Installation
 

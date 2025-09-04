@@ -1,5 +1,6 @@
 ---
 sidebar_position: 10
+id: custom_items
 title: 'Custom Items'
 ---
 
@@ -7,13 +8,24 @@ title: 'Custom Items'
 
 # 🪃 Custom Items
 
-Unlimited Adventures is equipped with a powerful, built-in custom items system.\
-This page will explain how to create new custom items, modify them and how to summon them.
+Unlimited Adventures includes a built-in, powerful custom items system — no extra plugins needed.\
+This guide will show you how to create, modify, summon, and texture your own custom items.
 
 :::tip[How to get custom items]
 You can access custom items menu by executing: `/getitems`\
 To get a specific item, execute: `/giveitem [item name] [player name] [amount]`
 :::
+
+## 🔓 How to unlock a Workshop Schematic?
+There are 3 methods:
+1. 💎 Players can unlock new schematics by **finding them in chests in The Wilderness**.\
+Player needs to hold the schematic in their hand and click on Workshop block to learn it.
+2. You can summon it using a command: `/giveitem workshop_schematic:item_name`
+3. Unlock item directly using unlock  command:
+- 🔓 Unlock a recipe: `/workshopunlock [player name] [item name]`,\
+for example: `/workshopunlock simon catching_net`
+- 🔒 Lock a recipe: `/workshoplock [player name] [item name]`,\
+for example: `/workshoplock simon catching_net`
 
 
 ## ➕ How to add new items?
@@ -91,7 +103,7 @@ But the most important things are down below, the `health` and `regeneration` st
 ## 🎨 Give your item a custom texture
 
 #### Upload your new texture to the server resource pack
-1. First, you have to add the texture to your resource pack. You need to [download](resource_pack) it on your computer so you can update it.
+1. First, you have to add the texture to your resource pack. You need to [download](resource-pack) it on your computer so you can update it.
 2. Put your texture in the 📁`assets/minecraft/textures/custom/items/` folder.
 3. Now you need to create a model for your texture, no matter whether it's 3D or not, this model allows us to create a brand new texture, instead of having to sacrifice existing Minecraft items:
 
@@ -149,8 +161,9 @@ dino_sword:
 
 
 
-## :pencil2: How to change crafting recipes?
-Edit the Forge Block recipes for custom items by going to: `unlimited_adventures/CustomItems/recipes.yml`
+## 📜 How to add/change crafting recipes?
+You can add your own workshop recipes or modify existing ones.\
+Config can be found in: `unlimited_adventures/CustomItems/recipes.yml`
 
 ```
 recipes:
@@ -162,12 +175,6 @@ recipes:
     - 5 of string
     - 3 of slimeball
 ```
-
-## :unlock: How to unlock a recipe?
-⚙️ **If you have enabled it in the config**, players will be required to unlock a recipe first, before they can forge an item.\
-In that case, you can unlock items for the players by executing:\
-`/forgeunlock [player name] [item name]`, for example: `/forgeunlock Simon adventure_backpack`
-
 
 
 ## 2 Placeholders available:

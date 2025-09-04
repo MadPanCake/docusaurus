@@ -1,12 +1,13 @@
 ---
 sidebar_position: 6
 title: '🖼️ Oraxen'
+id: oraxen
 ---
 
 import ReactPlayer from 'react-player'
 
 
-# 🖼️ How to make Unlimited Adventures work with Oraxen
+# 🖼️ Oraxen
 
 In order for the setup to work with Oraxen, you need to merge the resource pack with Oraxen.\
 It's actually a very simple process. Please refer to the text guide and use the video as a supplement.
@@ -19,12 +20,12 @@ It's actually a very simple process. Please refer to the text guide and use the 
 
 #### Step 3
 > :wrench: Find the `use_oraxen_or_itemsadder` setting in 📁`unlimited_adventures/AdventureCore/resource_pack` and set it to `true`
+:::tip[Find your resource pack]
+Don't know how to find your resource pack? Refer to [Resource Pack](resource-pack)
+:::
 
 #### Step 4
-> Copy contents of Unlimited Adventures' resource pack (everything in 📁`Unlimited Adventures/assets/`)
-:::tip[Find your resource pack]
-Don't know how to find your resource pack? Refer to [Resource Pack](resource_pack)
-:::
+> Copy contents of Unlimited Adventures resource pack (everything in 📁`Unlimited Adventures/assets/`)
 #### Step 5
 > 💾 Paste the copied folder into 📁`plugins/Oraxen/pack/assets`
 

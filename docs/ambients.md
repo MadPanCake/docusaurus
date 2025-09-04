@@ -7,24 +7,24 @@ title: '🔊 Ambients'
 
 # 🔊 **Ambients**
 
-Our ambients system is a powerful mechanic designed specifically for Unlimited Adventures. It's a fully original and custom software.\
-It's a system which creates a realistic sound atmosphere based on your surroundings, biome, time of the day and even weather!
+The Ambients system is a core feature of Unlimited Adventures, built entirely in-house as a custom software solution.\
+It dynamically creates immersive soundscapes that respond to your environment—whether it’s the biome you’re in, the time of day, your altitude, or even the weather—bringing the world to life around you.
 
 
-## ⚙ How to configure ambients?
+## ⚙ Configuring Ambients
 
-We are providing incredibly powerful configuration settings for the ambients.\
-Things ambient system can take into account when deciding what sounds should the player hear at the moment:
-- Biome,
-- Levels (Height - Y position),
-- Time of the day
-- Weather
+Our system comes with powerful configuration options, giving you full control over how ambients behave.\
+When deciding which sounds to play, the system can factor in:
+- Biome
+- Altitude (Y position) [`sky`, `surface` or `underground`]
+- Time of the day [`morning`, `noon`, `evening` and `night`]
+- Weather [`clear`, `rain`, `thunder`]
 
-You can also adjust:
-- Volume,
-- Delay,
-- Amplitude of delay (a randomization of delay),
-- Sound overlapping (you can force sound to never play while other sounds are playing)
+Additional adjustable settings include:
+- Volume
+- Delay (time between sounds)
+- amplitude (adds randomness to delay for more natural variation)
+- Prevent Stacking (avoids overlapping by ensuring only one ambient sound plays at a time)
 
 **Here's an example sound config:**
 ```
@@ -61,7 +61,7 @@ Adding new sounds is very straightforward. Simply add the sound to the resource 
 - Directional Sound: Make it MONO.
 - Non-Directional Sound ('plays in your head'): Make it STEREO.
 
-#### ⬆️ Now we need to upload your sound into the [resource pack](resource_pack).
+#### ⬆️ Now we need to upload your sound into the [resource pack](resource-pack).
 - Go to 📁`assets/minecraft/sounds/custom/`
 - Choose one of the folders, or create your own. Your final destination could be, for example:\
 📁`assets/minecraft/sounds/custom/effect/`
@@ -93,6 +93,14 @@ If you'd like to have multiple sound variants that will be chosen at random, do 
 Please notice how the last sound doesn't have a comma at the end. It's important!
 
 
+#### 🔍 Testing Your Sound
+
+Before moving on, make sure your sound works correctly in the resource pack.\
+You can test it quickly with the command:\
+`/playsound <sound_name>`\
+For example: `/playsound minecraft:entity.experience_orb.pickup`
+
+
 ### ⚙ [Step 2/2] Add sound to the ambients sounds list
 
 #### ➕ Just add your sound configuration to the file
@@ -101,7 +109,7 @@ You can find the file in `unlimited_adventures/Ambients/sounds.yml`
 An example config:
 ```
 hello:
-    sound: hello
+    sound: custom.hello
     biomes:
     - plains
     delay: 20
@@ -110,7 +118,7 @@ hello:
 A more advanced example:
 ```
 hello:
-    sound: hello
+    sound: custom.hello
     biomes:
     - green biomes
     - high biomes
