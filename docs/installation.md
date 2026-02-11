@@ -24,8 +24,6 @@ If Unlimited Adventures is already set up on your server, check out the ⬇️[U
 - [Citizens](https://ci.citizensnpcs.co/view/Citizens/job/Citizens2/3727/artifact/dist/target/Citizens-2.0.37-b3727.jar)
 - [Model Engine](https://mythiccraft.io/downloads/modelengine4/free/ModelEngine-4.0.8.jar)
 - [Mythic Mobs](https://mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.8.2.jar)
-- [Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot)
-- [Floodgate](https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot)
 
 #### Step 3
 Put the plugins into the 📁`plugins/` folder.
