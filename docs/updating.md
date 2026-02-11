@@ -44,17 +44,25 @@ Make sure to back up your files before making any changes or updates—it's alwa
 
   </TabItem>
 
-
-<TabItem value="2.11" label="Update 2.11">
+<TabItem value="2.12" label="Update 2.12">
 
 #### Step 1
 :red_circle: Stop your server.
 
 #### Step 2
-❌ Remove files:
-- 📁`unlimited_adventures/CustomItems/items.yml`
-- 📁`unlimited_adventures/CustomItems/schematics.yml`
-- 📁`unlimited_adventures/RandomEncounters/chests.yml`
+❌ Remove folders:
+- 📁 `plugins/Geyser-Spigot/packs/`
+- 📁 `plugins/Geyser-Spigot/custom_mappings/`
+- 📁 `plugins/Geyser-Spigot/extensions/`
+
+#### Step 2
+❌ Remove plugins:
+- `Floodgate.jar`
+- `GeyserModelEngine.jar`
+- `Geyser-Spigot.jar`
+- `GeyserUpdater.jar`
+- `GeyserUtils.jar`
+- `ViaVersion.jar`
 
 #### Step 3
 💾 Copy all contents of 📁`Update Files/` folder to your main server folder.\
