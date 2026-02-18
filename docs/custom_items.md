@@ -158,6 +158,49 @@ dino_sword:
 
 
 
+## 🗡️ Add a Backtool model to your item
+
+#### ➕ Create a Backtool model
+1. Prepare your model. You can use a model from 📁`assets/minecraft/models/custom/backtools/` as an example.
+
+If your item is flat (2D), you can simply replace the path to your item in resource pack, and then adjust the offset using [Blockbench](https://www.blockbench.net/), when necessary.
+```
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "custom/items/dino_sword"
+	},
+	"display": {
+		"thirdperson_lefthand": {
+			"rotation": [170, 90, 0],
+			"translation": [-8, -9, -30],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+```
+2. Add the model to your [resource pack](resource-pack). Put it in 📁`assets/minecraft/models/custom/backtools/`
+3. Add a path to the Backtool model to `assets/minecraft/items/feather.json` and specify it's model data value (threshold):
+```
+(...)
+{"threshold":104,"model":{"model":"custom/backtools/dino_sword","type":"model"}},
+(...)
+```
+
+#### ⚙️ Add the model to your custom item's config
+In your Custom Items config: 📁`unlimited_adventures/CustomItems/Items/`, find your item and add the custom model data of your backtool model:
+
+```
+amethyst_sword:
+    name: "&rAmethyst Sword"
+    item: diamond sword
+    custom_model_data: 733
+    backtools_model: 104   <-----   Add this line! ⚙️
+```
+
+
+
+
 
 
 
