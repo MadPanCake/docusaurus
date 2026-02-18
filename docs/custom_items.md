@@ -4,7 +4,7 @@ id: custom_items
 title: 'Custom Items'
 ---
 
-
+import img1 from './assets/backtool_crocodile_sword.png';
 
 # 🪃 Custom Items
 
@@ -31,7 +31,7 @@ for example: `/workshoplock simon catching_net`
 ## ➕ How to add new items?
 It's really easy to add new items, read more below:
 
-#### 🗒️ All custom items are found in: `unlimited_adventures/CustomItems/items.yml`:
+#### 🗒️ All custom items can be found in: 📁`unlimited_adventures/CustomItems/items/`:
 ```
 items:
     traveler_backpack:
@@ -56,7 +56,7 @@ items:
         item_id: adventure_backpack
 ```
 
-➕ You can add new items simply by duplicating an existing item from the config and changing it's name and properties to your liking:
+➕ You can add new items simply by duplicating an existing item from the config and changing its name and properties to your liking:
 ```
 dino_sword:
     name: "&6Dinosaur Sword"
@@ -84,7 +84,7 @@ belt_of_vitality:
     accessory: true
 ```
 
-As you can see, I have specified the name, item type, custom model data (so the item can have it's own custom texture) and wrote a short lore description.
+As you can see, I have specified the name, item type, custom model data (so the item can have its own custom texture) and wrote a short lore description.
 But the most important things are down below, the `health` and `regeneration` statistics are applied on the player when he's wearing the accessory.
 
 #### ⚙️ Available attributes:
@@ -144,7 +144,7 @@ We are linking it to the path of the model we have created in the previous step.
 #### Update the item config
 Now we'll add the just assigned custom model data to our custom item's config.
 
-`unlimited_adventures/CustomItems/items.yml`:
+`unlimited_adventures/CustomItems/items/items.yml`:
 ```
 dino_sword:
     name: "&6Dinosaur Sword"
@@ -159,6 +159,10 @@ dino_sword:
 
 
 ## 🗡️ Add a Backtool model to your item
+
+<img src={img1} alt="Image Description" width="300" height="300"/>
+
+Backtools are the models that render next to your waist or on your back, when you have particular tools and items in your hotbar. Here's how to add it to your custom item.
 
 #### ➕ Create a Backtool model
 1. Prepare your model. You can use a model from 📁`assets/minecraft/models/custom/backtools/` as an example.
@@ -180,7 +184,7 @@ If your item is flat (2D), you can simply replace the path to your item in resou
 	}
 ```
 2. Add the model to your [resource pack](resource-pack). Put it in 📁`assets/minecraft/models/custom/backtools/`
-3. Add a path to the Backtool model to `assets/minecraft/items/feather.json` and specify it's model data value (threshold):
+3. Add a path to the Backtool model to `assets/minecraft/items/feather.json` and specify its model data value (threshold):
 ```
 (...)
 {"threshold":104,"model":{"model":"custom/backtools/dino_sword","type":"model"}},
@@ -205,8 +209,8 @@ amethyst_sword:
 
 
 ## 📜 How to add/change crafting recipes?
-You can add your own workshop recipes or modify existing ones.\
-Config can be found in: `unlimited_adventures/CustomItems/recipes.yml`
+You can easily add your own workshop recipes or modify existing ones.\
+The folder with recipes can be found in: 📁`unlimited_adventures/CustomItems/recipes/`
 
 ```
 recipes:
@@ -217,6 +221,7 @@ recipes:
     catching_net:
     - 5 of string
     - 3 of slimeball
+(...)
 ```
 
 
