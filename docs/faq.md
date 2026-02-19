@@ -43,7 +43,7 @@ When joining on Bedrock, use port `25567`
 
 #### Is the setup Bedrock compatible?
 > Yes! Unlimited Adventures can be joined on all devices! Crossplay Feature is included in the base package - you don't have to buy an addon! ❤️
-> Use port `4002` to join our Bedrock test server!
+> Use port `45931` to join our Bedrock test server!
 
 #### I have a visual problem with Bedrock
 > Please try resetting your cached resource packs.
