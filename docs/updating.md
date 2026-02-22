@@ -45,7 +45,7 @@ Make sure to back up your files before making any changes or updates—it's alwa
   </TabItem>
 
 
-  <TabItem value="2.12.1" label="Update 2.12.1">
+  <TabItem value="2.13" label="Update 2.13">
 
 #### Step 1
 :red_circle: Stop your server.
