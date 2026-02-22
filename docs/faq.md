@@ -41,7 +41,8 @@ If you’d prefer to talk to me directly, then join our [Discord](https://discor
 > The setup is running natively on **Paper 1.21.11**
 
 #### Is the setup Bedrock compatible?
-> Unlimited Adventures used to support Bedrock, but we have decided to no longer offer support for it, and focus on creating an amazing Java-optimized experience instead.
+> Unlimited Adventures once supported Bedrock. That chapter is closed.
+> We’re now fully committed to pushing the limits of what’s possible on Java Edition — delivering a sharper, deeper, and uncompromisingly optimized experience built without constraints.
 
 #### 🌲 Trees look weird!
 > Our tree leaves have a custom, bushy texture, that makes the foliage beautiful.\
