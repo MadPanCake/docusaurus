@@ -16,14 +16,12 @@ If Unlimited Adventures is already set up on your server, check out the ⬇️[U
 
 #### Step 1
 
-⬇️ Download [Paper 1.21.4](https://api.papermc.io/v2/projects/paper/versions/1.21.4/builds/227/downloads/paper-1.21.4-227.jar)
+⬇️ Download [Paper 1.21.11](https://papermc.io/downloads/paper)
 
 #### Step 2
 ⬇️ Download & install required plugins: 
-- [TAB](https://github.com/NEZNAMY/TAB/releases/download/5.2.0/TAB.v5.2.0.jar)
-- [Citizens](https://ci.citizensnpcs.co/view/Citizens/job/Citizens2/3727/artifact/dist/target/Citizens-2.0.37-b3727.jar)
-- [Model Engine](https://mythiccraft.io/downloads/modelengine4/free/ModelEngine-4.0.8.jar)
-- [Mythic Mobs](https://mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.8.2.jar)
+- [TAB](https://github.com/NEZNAMY/TAB/releases/download/5.5.0/TAB.v5.5.0.jar)
+- [Mythic Mobs](https://mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.11.2.jar)
 
 #### Step 3
 Put the plugins into the 📁`plugins/` folder.

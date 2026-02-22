@@ -44,6 +44,52 @@ Make sure to back up your files before making any changes or updates—it's alwa
 
   </TabItem>
 
+
+  <TabItem value="2.12.1" label="Update 2.12.1">
+
+#### Step 1
+:red_circle: Stop your server.
+
+#### Step 2
+❌ Remove `Paper.jar`
+
+#### Step 3
+❌ Remove folders:
+- 📁 `world/datapacks/`
+- 📁 `plugins/Citizens/`
+- 📁 `plugins/floodgate/`
+- 📁 `plugins/GeyserModelEngine/`
+- 📁 `plugins/Geyser-Spigot/`
+- 📁 `plugins/GeyserUpdater/`
+- 📁 `plugins/ModelEngine/`
+- 📁 `plugins/ExcellentEnchants/enchants/`
+
+#### Step 4
+❌ Remove plugins:
+- `Citizens.jar`
+- `Floodgate.jar`
+- `GeyserModelEngine.jar`
+- `Geyser-Spigot.jar`
+- `GeyserUpdater.jar`
+- `GeyserUtils.jar`
+- `ModelEngine.jar`
+- `MythicMobs.jar`
+- `TAB.jar`
+
+#### Step 5
+⬇️ Update dependencies:
+- Update [TAB](https://github.com/NEZNAMY/TAB/releases/download/5.5.0/TAB.v5.5.0.jar)
+- Update [MythicMobs](https://mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.11.2.jar)
+- Download [Paper](https://papermc.io/downloads/paper)
+
+#### Step 6
+💾 Copy all contents of 📁`Update Files/` folder to your main server folder.\
+(Click "Change files in the destination")
+
+  </TabItem>
+
+  
+
 <TabItem value="2.12" label="Update 2.12">
 
 #### Step 1
@@ -135,95 +181,6 @@ Make sure to back up your files before making any changes or updates—it's alwa
 
 
 
-
-
-
-
-  <TabItem value="2.8" label="Update 2.8">
-
-#### Step 1
-:red_circle: Stop your server.
-
-#### Step 2
-❌ Remove folders:
-- 📁 `unlimited_adventures/CustomItems/`
-- 📁 `unlimited_adventures/Ambients/`
-- 📁 `plugins/ChatManager`
-- 📁 `plugins/FastAsyncWorldEdit`
-- 📁 `plugins/NexEngine`
-- 📁 `plugins/ExcellentEnchants`
-
-#### Step 3
-❌ Remove plugins .jar files:
-- `ChatManager.jar`
-- `Chunky.jar`
-- `FastAsyncWorldEdit.jar`
-- `ExcellentEnchants.jar` 
-- `NexEngine.jar`
-- `World Edit.jar`
-- `World Guard.jar` (don't remove the folder, it contains regions!)
-
-
-#### Step 4
-❌ Remove scripts:
-- `plugins/Skript/scripts/chat_manager.sk`
-- `plugins/Skript/scripts/ambients.sk`
-
-#### Step 5
-⬇️ Download [Paper 1.21](https://api.papermc.io/v2/projects/paper/versions/1.21/builds/130/downloads/paper-1.21-130.jar)
-
-#### Step 5
-⬇️ Update plugins:
-- Update [TAB](https://github.com/NEZNAMY/TAB/releases/download/4.1.8/TAB.v4.1.8.jar).
-- Update [Citizens](https://ci.citizensnpcs.co/job/Citizens2/3580/artifact/dist/target/Citizens-2.0.35-b3580.jar).
-- Update [Model Engine](https://mythiccraft.io/index.php?pages/official-modelengine4-download/&download=free&f=4.0.7).
-- Update [Mythic Mobs](https://www.mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.7.2.jar).
-
-
-#### Step 6
-💾 Copy all contents of 📁`Update Files/` to your main server folder.\
-(Click "Change files in the destination")
-
-
-
-  </TabItem>
-
-
-
-
-
-
-
-
-  <TabItem value="2.6.1" label="Update 2.6.1">
-
-#### Step 1
-:red_circle: Stop your server.
-
-#### Step 2
-❌ Remove folders:
-- 📁 `spawn`
-- 📁 `plugins/CommandPanels/panels`
-
-#### Step 3
-❌ Remove files:
-- `plugins/worldedit.jar`
-- `plugins/AureliumSkills.jar` 
-- `plugins/Skript/scripts/rtp.sk`
-
-#### Step 4
-⬇️ Download [Paper 1.20.4](https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/485/downloads/paper-1.20.4-485.jar)
-
-#### Step 5
-⬇️ Update [Citizens](https://ci.citizensnpcs.co/job/citizens2/3373/artifact/dist/target/Citizens-2.0.33-b3373.jar).
-
-
-#### Step 6
-💾 Copy all contents of 📁`Update Files/` to your main server folder.\
-(Click "Change files in the destination")
-
-
-  </TabItem>
 
 </Tabs>
 

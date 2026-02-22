@@ -10,7 +10,6 @@ module.exports = {
     { type: 'doc', id: 'updating', label: ' Updating' },
     { type: 'doc', id: 'basic_configuration', label: ' Basic Configuration' },
     { type: 'doc', id: 'administration', label: ' Administration' },
-    { type: 'doc', id: 'bedrock', label: ' Bedrock' },
     { type: 'doc', id: 'troubleshooting', label: ' Troubleshooting' },
     { type: 'doc', id: 'performance', label: ' Performance' },
 

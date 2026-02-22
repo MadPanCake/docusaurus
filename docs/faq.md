@@ -33,22 +33,15 @@ If you’d prefer to talk to me directly, then join our [Discord](https://discor
 
 :::tip
 ## You can test our server! - IP: endernerds.com
-When joining on Bedrock, use port `25567`
 :::
 
 ## :arrow_forward: Setup
 
 #### What Minecraft version is the setup using?
-> The setup is running natively on **Paper 1.21.4**
+> The setup is running natively on **Paper 1.21.11**
 
 #### Is the setup Bedrock compatible?
-> Yes! Unlimited Adventures can be joined on all devices! Crossplay Feature is included in the base package - you don't have to buy an addon! ❤️
-> Use port `45931` to join our Bedrock test server!
-
-#### I have a visual problem with Bedrock
-> Please try resetting your cached resource packs.
-> Main Menu -> Storage -> Cached Data -> Delete all Unlimited Adventures, Model Engine and Geyser packs
-
+> Unlimited Adventures used to support Bedrock, but we have decided to no longer offer support for it, and focus on creating an amazing Java-optimized experience instead.
 
 #### 🌲 Trees look weird!
 > Our tree leaves have a custom, bushy texture, that makes the foliage beautiful.\
