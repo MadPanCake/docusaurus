@@ -20,7 +20,6 @@ If Unlimited Adventures is already set up on your server, check out the ⬇️[U
 
 #### Step 2
 ⬇️ Download & install required plugins: 
-- [TAB](https://github.com/NEZNAMY/TAB/releases/download/5.5.0/TAB.v5.5.0.jar)
 - [Mythic Mobs](https://mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.11.2.jar)
 
 #### Step 3
