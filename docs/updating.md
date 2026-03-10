@@ -43,6 +43,28 @@ Make sure to back up your files before making any changes or updates—it's alwa
 (Click "Change files in the destination")
 
   </TabItem>
+  
+
+  <TabItem value="2.13.2" label="Update 2.13.2">
+
+#### Step 1
+:red_circle: Stop your server.
+
+#### Step 2
+❌ Remove plugin `Lumberjack.jar`
+
+#### Step 3
+❌ Remove folder 📁 `plugins/Lumberjack/`
+
+#### Step 4
+❌ Remove script `plugins/Skript/scripts/animations.sk`
+
+#### Step 5
+💾 Copy all contents of 📁`Update Files/` folder to your main server folder.\
+(Click "Change files in the destination")
+
+  </TabItem>
+
 
 
   <TabItem value="2.13" label="Update 2.13">
