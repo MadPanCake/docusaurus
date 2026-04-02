@@ -15,8 +15,8 @@ import TabItem from '@theme/TabItem';
 If you're already using the setup, but would like to install the update, you can easily do it!
 
 :::warning[Don't skip versions!]
-You must update sequentially! For example, you cannot jump directly from 2.8 to 2.9\
-You need to go in order, example: 2.8.5 ➡️ 2.8.6 ➡️ 2.8.7 ➡️ 2.9
+You must update sequentially! For example, you cannot jump directly from 2.13 to 2.13.3\
+You need to go in order, example: 2.13 ➡️ 2.13.1 ➡️ 2.13.2 ➡️ 2.13.3
 :::
 
 :::danger[Backup first!]
@@ -39,6 +39,26 @@ Make sure to back up your files before making any changes or updates—it's alwa
 :red_circle: Stop your server.
 
 #### Step 2
+💾 Copy all contents of 📁`Update Files/` folder to your main server folder.\
+(Click "Change files in the destination")
+
+  </TabItem>
+
+  <TabItem value="2.13.3" label="Update 2.13.3">
+
+#### Step 1
+:red_circle: Stop your server.
+
+#### Step 2
+❌ Remove plugin `UTimber.jar`
+
+#### Step 3
+❌ Remove folder 📁 `plugins/UTimber/`
+
+#### Step 4
+❌ Remove script `plugins/Skript/scripts/animations.sk` (if exists)
+
+#### Step 5
 💾 Copy all contents of 📁`Update Files/` folder to your main server folder.\
 (Click "Change files in the destination")
 
