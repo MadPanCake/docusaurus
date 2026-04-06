@@ -23,25 +23,26 @@ If it's your first time using ItemsAdder, please refer to its [guide](https://it
 > ❌ Remove `resource-pack=` link from `server.properties`
 
 #### Step 3
-> :wrench: Find the `use_oraxen_or_itemsadder` setting in 📁`unlimited_adventures/AdventureCore/resource_pack` and set it to `true`
+> Open `plugins/BetterModel/config.yml`\
+> Find:\
+> ```build-folder-location: BetterModel/build```\
+> replace it with:\
+> `build-folder-location: ItemsAdder\contents\BetterModel\resourcepack`
 
 #### Step 4
-> ❌ Remove 📁`modelengine` folder from the resource pack folder 📁`assets/modelengine`
+> Put Unlimited Adventures resource pack into 📁`plugins/ItemsAdder/contents`
 :::tip[Find your resource pack]
 Don't know how to find your resource pack? Refer to [Resource Pack](resource-pack)
 :::
 
 #### Step 5
-> Put Unlimited Adventures resource pack into 📁`plugins/ItemsAdder/contents`
-
-#### Step 6
 > Execute the `/iazip` command.
 
 Done! Now start your server and enjoy Unlimited Adventures and ItemsAdder working together :heart:
 
 
 <ReactPlayer playing controls url="https://youtu.be/2nsQDgKO4oo"/>
-
+Notice: Video guide is missing the step 3.
 
 
 ### Other sources:
