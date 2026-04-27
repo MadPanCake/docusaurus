@@ -68,7 +68,7 @@ If you’d prefer to talk to me directly, then join our [Discord](https://discor
 
 #### 🛠️ What are the hardware requirements?
 - 🧠 A modern **CPU** (preferably less than 5 years old) with strong single-core performance — **4.0 GHz or higher**.
-- 💾 At least **8 GB of RAM**.
+- 💾 At least **6 GB of RAM**.
 - 🖥️ **Dedicated hosting** is highly recommended — avoid shared hosting for stable performance and fewer surprises.
 
 #### 🛡️ What if I don't like the setup?
