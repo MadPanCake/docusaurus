@@ -7,10 +7,9 @@ title: 'Bedrock'
 
 
 # ⚙️ Bedrock Support
+**Unlimited Adventures can be expanded with full Minecraft Bedrock support through an optional paid add-on.**
 
-**Unlimited Adventures supports Bedrock out of the box.**\
-Players can join your server from any device — whether it's **PC, Console, Mobile, or even Nintendo Switch**\
-✅ No extra purchases or paid addons are needed — **Bedrock compatibility is included in the base package.**
+Once enabled, players can join your server from PC, consoles, mobile devices, and Nintendo Switch. The add-on also includes a dedicated Bedrock resource pack with adapted menus, custom mobs, and other cross-platform features.
 
 ---
 
@@ -21,14 +20,6 @@ Players can join your server from any device — whether it's **PC, Console, Mob
 :::warning
 Using multiple Bedrock resource packs at the same time may cause conflicts or unexpected behavior.
 :::
-
-## 🛠️ Maintaining Bedrock
-
-⚡ **Heads up!** Bedrock gets updated way more often than Java. That means for Bedrock players to join Java servers, the **Geyser plugin** always needs to stay **up-to-date**. 🔄
-
-👉 Sometimes you might have to update Geyser a few times in the same week – so don’t be surprised!
-
-⬇️ You can always grab the latest Geyser .jar straight from the [official page](https://geysermc.org/download/).
 
 
 ## 🔁 Velocity / BungeeCord Installation

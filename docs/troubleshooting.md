@@ -14,9 +14,9 @@ Running into issues? This page will walk you through the most common problems an
 
 Before anything else, double-check these essentials:
 - 🧱 You followed the official [**installation instructions**](https://docs.endernerds.com/installation)
-- 🧾 You're running [**Paper 1.21.11**](https://fill-data.papermc.io/v1/objects/3a2848849a7635bdaf45581f07d3d4dee6780761c5db9ad8e24b4654468719ab/paper-1.21.11-117.jar) as your server jar
+- 🧾 You're running [**Paper 26.1.2**](https://papermc.io/downloads/paper) as your server jar
 - 🆕 You're using the latest version of the setup ([check on BuiltByBit](https://builtbybit.com/resources/unlimited-adventures-survival-setup.27917/updates))
-- ☕ You're running Java 21 ([download here](https://www.oracle.com/pl/java/technologies/downloads/#java21))
+- ☕ You're running Java 25 ([download here](https://www.oracle.com/pl/java/technologies/downloads/#java25))
 
 ### ⚠️ Potentially Unsupported Features
 Some setups may cause unexpected behavior:
@@ -25,7 +25,7 @@ Some setups may cause unexpected behavior:
 - 🔄 **ViaVersion / ViaRewind / etc.** — allow unsupported versions to join, which may cause bugs or visual issues.
 
 ### ⚠️ Check Your Minecraft Client
-- ✅ Use **Minecraft 1.21.11** — other versions aren’t guaranteed to work.
+- ✅ Use **Minecraft 26.1.2** — other versions aren’t guaranteed to work.
 - 🎮 Use the **official launcher**, and avoid mods or custom launchers - those are not guaranteed to work.
 
 

@@ -44,6 +44,38 @@ Make sure to back up your files before making any changes or updates—it's alwa
 
   </TabItem>
 
+
+  <TabItem value="2.14" label="Update 2.14">
+
+#### Step 1
+:red_circle: Stop your server.
+
+#### Step 2
+❌ Remove world folders:
+- 📁 `dungeons`
+- 📁 `spawn`
+
+#### Step 3
+❌ Remove folder: 📁 `world/datapacks/`
+
+#### Step 4
+❌ Remove:
+- `plugins/BetonQuest/messages.yml`
+- `plugins/BetonQuest/menuConfig.yml`
+
+#### Step 5
+Update to [Paper 26.1.2](https://papermc.io/downloads/paper)
+
+#### Step 6
+Update to Java 25
+
+#### Step 7
+💾 Copy all contents of 📁`Update Files/` folder to your main server folder.\
+(Click "Change files in the destination")
+
+  </TabItem>
+
+
   <TabItem value="2.13.3" label="Update 2.13.3">
 
 #### Step 1

@@ -38,11 +38,11 @@ If you’d prefer to talk to me directly, then join our [Discord](https://discor
 ## :arrow_forward: Setup
 
 #### What Minecraft version is the setup using?
-> The setup is running natively on **Paper 1.21.11**
+> The setup is running natively on **Paper 26.1.2**
 
-#### Is the setup Bedrock compatible?
-> Unlimited Adventures once supported Bedrock. That chapter is closed.\
-> We’re now fully committed to pushing the limits of what’s possible on Java Edition — delivering a sharper, deeper, and uncompromisingly optimized experience built without constraints.
+#### Is the setup compatible with Minecraft Bedrock?
+> Yes! Unlimited Adventures supports crossplay on all Bedrock-compatible devices through the optional Bedrock Support add-on.\
+> The add-on is sold separately and includes a dedicated Bedrock resource pack, adapted menus, custom mobs, and other features required for a consistent cross-platform experience.
 
 #### 🌲 Trees look weird!
 > Our tree leaves have a custom, bushy texture, that makes the foliage beautiful.\

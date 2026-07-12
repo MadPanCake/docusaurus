@@ -30,6 +30,7 @@ module.exports = {
       value: '<div style="margin-top:1em; font-size: 14px; text-transform: uppercase; color: #888;">⭐ Features & Gameplay</div>',
       defaultStyle: true,
     },
+    { type: 'doc', id: 'bedrock', label: ' Bedrock' },
     { type: 'doc', id: 'custom_items', label: ' Custom Items' },
     { type: 'doc', id: 'artifacts', label: ' Artifacts' },
     { type: 'doc', id: 'farming', label: ' Farming' },
