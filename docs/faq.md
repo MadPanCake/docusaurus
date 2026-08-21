@@ -38,7 +38,7 @@ If you’d prefer to talk to me directly, then join our [Discord](https://discor
 ## :arrow_forward: Setup
 
 #### What Minecraft version is the setup using?
-> The setup is running natively on **Paper 26.1.2**
+> The setup is running natively on **Paper 26.2**
 
 #### Is the setup compatible with Minecraft Bedrock?
 > Yes! Unlimited Adventures supports crossplay on all Bedrock-compatible devices through the optional Bedrock Support add-on.\

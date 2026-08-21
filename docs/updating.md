@@ -45,6 +45,31 @@ Make sure to back up your files before making any changes or updates—it's alwa
   </TabItem>
 
 
+  <TabItem value="2.14.2" label="Update 2.14.2">
+
+#### Step 1
+:red_circle: Stop your server.
+
+#### Step 2
+❌ Remove folder: 📁 `world/datapacks/`
+
+#### Step 4
+❌ Remove:
+- `plugins/packetevents.jar`
+
+#### Step 5
+Update [Mythic Mobs](https://mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.13.0.jar) plugin
+
+#### Step 6
+Update to [Paper 26.2](https://papermc.io/downloads/paper)
+
+#### Step 7
+💾 Copy all contents of 📁`Update Files/` folder to your main server folder.\
+(Click "Change files in the destination")
+
+  </TabItem>
+
+
   <TabItem value="2.14" label="Update 2.14">
 
 #### Step 1
