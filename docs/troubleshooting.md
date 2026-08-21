@@ -63,10 +63,10 @@ enforce-secure-profile: false
 
 #### ☠️ Can't access Dungeons or Spawn?
 
-Make sure these folders exist in your server’s root directory:
-- `spawn`
-- `dungeons`
-- `world`
+Make sure these folders exist in your worlds folder directory:
+- 📁`world/dimensions/minecraft/spawn`
+- 📁`world/dimensions/minecraft/dungeons`
+- 📁`world/dimensions/minecraft/world`
 
 Also check that:\
 📁 `plugins/unlimited_adventures/Dungeons/FloorData` is **not empty**.\
