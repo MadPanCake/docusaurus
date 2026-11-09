@@ -54,17 +54,13 @@ Make sure to back up your files before making any changes or updates—it's alwa
 #### Step 2
 ❌ Remove folder: 📁 `world/datapacks/`
 
+#### Step 3
+Update [Mythic Mobs](https://mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.14.0.jar) plugin
+
 #### Step 4
-❌ Remove:
-- `plugins/packetevents.jar`
-
-#### Step 5
-Update [Mythic Mobs](https://mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.13.0.jar) plugin
-
-#### Step 6
 Update to [Paper 26.3](https://papermc.io/downloads/paper)
 
-#### Step 7
+#### Step 5
 💾 Copy all contents of 📁`Update Files/` folder to your main server folder.\
 (Click "Change files in the destination")
 
