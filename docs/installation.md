@@ -16,10 +16,10 @@ If Unlimited Adventures is already set up on your server, check out the ⬇️[U
 
 #### Step 1
 
-⬇️ Download [Paper 26.2](https://papermc.io/downloads/paper)
+⬇️ Download [Paper 26.3](https://papermc.io/downloads/paper)
 
 #### Step 2
-⬇️ Download & install [Mythic Mobs](https://mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.13.0.jar) plugin.
+⬇️ Download & install [Mythic Mobs](https://mythiccraft.io/downloads/mythicmobs/free/MythicMobs-5.14.0.jar) plugin.
 
 #### Step 3
 Put the plugins into the 📁`plugins/` folder.
